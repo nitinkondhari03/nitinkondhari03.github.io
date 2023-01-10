@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1318783.css",
-    "main.js": "/static/js/main.92aee8fa.js",
+    "main.css": "/static/css/main.fa0e69a8.css",
+    "main.js": "/static/js/main.41753b3b.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/mini-youtube.PNG": "/static/media/mini-youtube.7517a7a744e6adc3d650.PNG",
     "static/media/prettyinpink.png": "/static/media/prettyinpink.a9ecd4ad0976cc02bec0.png",
@@ -18,6 +18,7 @@
     "static/media/frontend-icon-22.jpg": "/static/media/frontend-icon-22.23cac2a4e78e5e715d52.jpg",
     "static/media/todo-app.png": "/static/media/todo-app.c89494e2aa66cdb2c1ab.png",
     "static/media/DSAA.png": "/static/media/DSAA.77509298a343d123a7bd.png",
+    "static/media/contact.svg": "/static/media/contact.7902d4e71797e1f688fd.svg",
     "static/media/react.svg": "/static/media/react.2b6a071759fcdac074f4dcad26eef347.svg",
     "static/media/nodejs-icon.svg": "/static/media/nodejs-icon.615ffbea9529ca7047ed8a912bfd94b2.svg",
     "static/media/photoshop.svg": "/static/media/photoshop.1114b31fb8d3fd15c3852e120ec83e8a.svg",
@@ -30,12 +31,12 @@
     "static/media/css.svg": "/static/media/css.43b6f4bdbc0f36b9f2dd15c6ebbcea15.svg",
     "static/media/html.svg": "/static/media/html.6a342d61e4fe710cf3e5c05b65b0ac87.svg",
     "index.html": "/index.html",
-    "main.a1318783.css.map": "/static/css/main.a1318783.css.map",
-    "main.92aee8fa.js.map": "/static/js/main.92aee8fa.js.map",
+    "main.fa0e69a8.css.map": "/static/css/main.fa0e69a8.css.map",
+    "main.41753b3b.js.map": "/static/js/main.41753b3b.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1318783.css",
-    "static/js/main.92aee8fa.js"
+    "static/css/main.fa0e69a8.css",
+    "static/js/main.41753b3b.js"
   ]
 }
