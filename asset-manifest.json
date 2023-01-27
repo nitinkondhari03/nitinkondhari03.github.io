@@ -1,23 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c725e589.css",
-    "main.js": "/static/js/main.d8a50645.js",
+    "main.css": "/static/css/main.c4c86487.css",
+    "main.js": "/static/js/main.6424a58b.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/mini-youtube.PNG": "/static/media/mini-youtube.7517a7a744e6adc3d650.PNG",
-    "static/media/prettyinpink.png": "/static/media/prettyinpink.a9ecd4ad0976cc02bec0.png",
-    "static/media/indiantoday.png": "/static/media/indiantoday.71d638b81c7346aa9a3a.png",
-    "static/media/Expedia.png": "/static/media/Expedia.294da89be99c186cbee6.png",
+    "static/media/Youtube-clone.png": "/static/media/Youtube-clone.b112b549be7e3d7c25bf.png",
+    "static/media/Indiatoday-Clone.png": "/static/media/Indiatoday-Clone.c7f8e566cebc33df23d7.png",
+    "static/media/Beautybebo - Clone.png": "/static/media/Beautybebo - Clone.f11aca33c9fe71fc3dc2.png",
+    "static/media/Expedia-Clone.png": "/static/media/Expedia-Clone.a0728690541dcb31882f.png",
     "static/media/netlify-logo-png-transparent.png": "/static/media/netlify-logo-png-transparent.603ef81c872f9df8c343.png",
-    "static/media/Nitin_Kondhari.png": "/static/media/Nitin_Kondhari.0987ee54b8d5d0eaffb8.png",
-    "static/media/toggl-clone.PNG": "/static/media/toggl-clone.dbf9e2e0fac7cbcdc058.PNG",
-    "static/media/cypress_logo_meta-image-01.png": "/static/media/cypress_logo_meta-image-01.7651d9b69799b6d71fb7.png",
-    "static/media/906324VScode.png": "/static/media/906324VScode.ce637e60ea8d930e6547.png",
-    "static/media/todo-app.png": "/static/media/todo-app.c89494e2aa66cdb2c1ab.png",
-    "static/media/5968381typescript.png": "/static/media/5968381typescript.af108db04a54d784da9b.png",
+    "static/media/img.png": "/static/media/img.575ea9057312eafe203c.png",
+    "static/media/visual-studio-code-logo.png": "/static/media/visual-studio-code-logo.db93542ad04e4aac958e.png",
+    "static/media/nextjs.png": "/static/media/nextjs.331efda6800a28298b1b.png",
     "static/media/contact.svg": "/static/media/contact.7902d4e71797e1f688fd.svg",
     "static/media/react.svg": "/static/media/react.2b6a071759fcdac074f4dcad26eef347.svg",
     "static/media/nodejs-icon.svg": "/static/media/nodejs-icon.615ffbea9529ca7047ed8a912bfd94b2.svg",
-    "static/media/photoshop.svg": "/static/media/photoshop.1114b31fb8d3fd15c3852e120ec83e8a.svg",
     "static/media/mongoDB.svg": "/static/media/mongoDB.6c6da70249bd055e32474d63755dd3db.svg",
     "static/media/redux.svg": "/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
     "static/media/bootstrap.svg": "/static/media/bootstrap.19a2d2ff74985cbf49a1aed7fb4d5401.svg",
@@ -25,14 +21,15 @@
     "static/media/javascript.svg": "/static/media/javascript.e9360603cdd412c8f9acb925313bc3f3.svg",
     "static/media/express-js-icon.svg": "/static/media/express-js-icon.ea97b712340ffb8f11d85ccb96309507.svg",
     "static/media/css.svg": "/static/media/css.43b6f4bdbc0f36b9f2dd15c6ebbcea15.svg",
+    "static/media/Octicons-mark-github.svg": "/static/media/Octicons-mark-github.255db585f8a0eb28a1e4deb91bde207d.svg",
     "static/media/html.svg": "/static/media/html.6a342d61e4fe710cf3e5c05b65b0ac87.svg",
     "index.html": "/index.html",
-    "main.c725e589.css.map": "/static/css/main.c725e589.css.map",
-    "main.d8a50645.js.map": "/static/js/main.d8a50645.js.map",
+    "main.c4c86487.css.map": "/static/css/main.c4c86487.css.map",
+    "main.6424a58b.js.map": "/static/js/main.6424a58b.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c725e589.css",
-    "static/js/main.d8a50645.js"
+    "static/css/main.c4c86487.css",
+    "static/js/main.6424a58b.js"
   ]
 }
