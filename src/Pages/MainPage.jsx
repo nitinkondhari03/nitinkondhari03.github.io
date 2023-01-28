@@ -95,10 +95,10 @@ const techStack=useRef(null)
 
       <Box p={8}>
         <div   ref={home}>
-          <Home />
+          <Home  id="home"/>
         </div>
         <div  ref={about}>
-          <About />
+          <About id="about" class="about section"/>
         </div>
         <div  ref={githubCalenders}>
           <GithubCalender/>
@@ -107,15 +107,15 @@ const techStack=useRef(null)
           <GitStats/>
         </div>
         <div  ref={techStack}>
-          <TechStack/>
+          <TechStack id="skills"/>
         </div>
         <div  ref={projects}>
-          <Projects/>
+          <Projects  id="projects"/>
         </div>
         
         
         <div  ref={contacts}>
-          <Contact/>
+          <Contact id="contact"/>
         </div>
         {/* <Footer /> */}
       </Box>
