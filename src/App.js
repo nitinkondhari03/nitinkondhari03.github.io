@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-
+import MainPage from './Pages/MainPage';
 function App() {
   return (
-    <div className="App">
-      <h1>Hellow i am Nitin</h1>
-    </div>
+    <>
+      <MainPage />
+    </>
   );
 }
 

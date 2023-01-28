@@ -1,0 +1,48 @@
+.img {
+  background-image: url(../../Assets/contact.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 30em;
+  width: 30em;
+  max-width: 100%;
+  z-index: 0;
+}
+.texts {
+  transition: transform 0.5s linear;
+}
+.texts:hover {
+  color: #dc143c;
+  transform: scale(1.1);
+
+  transition: 0.5s ease-in;
+}
+.Heading {
+  margin: auto;
+  width: auto;
+  border-bottom: 2px solid teal;
+}
+.TabHeading {
+  margin: auto;
+  width: auto;
+  border-bottom: 2px solid teal;
+  /* font-size: 10px; */
+}
+.MobHeading {
+  margin: auto;
+  width: auto;
+  border-bottom: 2px solid teal;
+}
+
+.form {
+  margin-top: 20px;
+  width: 50%;
+}
+.iconBox:hover {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: teal;
+  color: white;
+}
+.iconBox {
+  padding: 10px;
+}
