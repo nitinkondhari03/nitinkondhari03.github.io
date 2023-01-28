@@ -80,7 +80,7 @@ const techStack=useRef(null)
   };
   return (
     <>
-      <Navbar
+      <Navbar id="nav-menu"
         handleHome={handleHome}
         handleAbout={handleAbout}
         handleProjects={handleProjects}
