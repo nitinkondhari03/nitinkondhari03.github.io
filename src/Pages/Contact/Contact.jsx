@@ -85,7 +85,7 @@ const initialInput = {
   };
 
   return (
-    <>
+    <div id="contact">
       <Desktop>
         <Box pt={5} pb={10} fontFamily="poppins" textAlign="center">
           <Heading
@@ -630,7 +630,7 @@ const initialInput = {
           </Box>
         </Box>
       </Mobile>
-    </>
+    </div>
   );
 };
 

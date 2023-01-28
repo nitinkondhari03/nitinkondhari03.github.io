@@ -39,7 +39,7 @@ const Mobile = ({ children }) => {
   "Bootstrap","Material-UI","Redux","Git","NodeJS", "ExpressJS", "Mongodb","github","vscode","netlify","vercel"]
   const Tools=["github","vscode","netlify","vercel"]
   return (
-    <>
+    <div id="skills">
       <Desktop>
         <Box mt='100px'  pb={10} textAlign="center" fontFamily="poppins">
           <Heading
@@ -914,7 +914,7 @@ const Mobile = ({ children }) => {
           </Center>
         </Box>
       </Mobile>
-    </>
+    </div>
   );
 };
 

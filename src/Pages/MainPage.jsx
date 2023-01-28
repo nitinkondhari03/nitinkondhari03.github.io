@@ -80,7 +80,7 @@ const techStack=useRef(null)
   };
   return (
     <>
-      <Navbar id="nav-menu"
+      <Navbar 
         handleHome={handleHome}
         handleAbout={handleAbout}
         handleProjects={handleProjects}
@@ -98,7 +98,7 @@ const techStack=useRef(null)
           <Home  id="home"/>
         </div>
         <div  ref={about}>
-          <About id="about" class="about section"/>
+          <About  />
         </div>
         <div  ref={githubCalenders}>
           <GithubCalender/>
@@ -107,15 +107,15 @@ const techStack=useRef(null)
           <GitStats/>
         </div>
         <div  ref={techStack}>
-          <TechStack id="skills"/>
+          <TechStack/>
         </div>
         <div  ref={projects}>
-          <Projects  id="projects"/>
+          <Projects  />
         </div>
         
         
         <div  ref={contacts}>
-          <Contact id="contact"/>
+          <Contact />
         </div>
         {/* <Footer /> */}
       </Box>

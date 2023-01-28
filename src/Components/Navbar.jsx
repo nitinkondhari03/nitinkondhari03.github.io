@@ -39,7 +39,7 @@ export default function Navbar({handleHome, handleAbout, handleProjects, handleC
 
   return (
     <>
-      <Box bg={"#319795"} px={4} position={'fixed'} zIndex={3}  width={'100%'} >
+      <Box id="nav-menu" bg={"#319795"} px={4} position={'fixed'} zIndex={3}  width={'100%'}  >
         <Flex h={20} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}

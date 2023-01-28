@@ -25,7 +25,7 @@ const Mobile = ({ children }) => {
 
  const About = () => {
   return (
-    <>
+    <div id="about">
       <Desktop>
         <Box   textAlign="center">
           <Heading
@@ -146,7 +146,7 @@ const Mobile = ({ children }) => {
           </Center>
         </Box>
       </Mobile>
-    </>
+    </div>
   );
 };
 

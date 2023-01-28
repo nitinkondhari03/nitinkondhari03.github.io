@@ -37,7 +37,7 @@ const Mobile = ({ children }) => {
   const { colorMode } = useColorMode();
 
   return (
-    <>
+    <div id="projects">
       <Desktop>
         <Box
           fontFamily="poppins"
@@ -888,7 +888,7 @@ const Mobile = ({ children }) => {
           </Center>
         </Box>
       </Mobile>
-    </>
+    </div>
   );
 };
 
