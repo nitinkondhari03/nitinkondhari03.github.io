@@ -11,7 +11,7 @@ import {
   useColorModeValue,
   Stack,Text
 } from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon,DownloadIcon } from '@chakra-ui/icons';
+import { HamburgerIcon, CloseIcon} from '@chakra-ui/icons';
 
 
 
@@ -37,6 +37,11 @@ const NavLink = ({children}) => (
 export default function Navbar({handleHome, handleAbout, handleProjects, handleContacts,handletechStack,handlegithubCalenders}) {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
+
+const  handleClick=()=>{
+  console.log("yes")
+        window.open('https://drive.google.com/file/d/1MIKbQePBvVrZoP3Wk-bWH0oA5oY_FyVI/view?usp=share_link')
+    }
   return (
     <>
       <Box id="nav-menu" bg={"#319795"} px={4} position={'fixed'} zIndex={3}  width={'100%'}  >
@@ -66,19 +71,19 @@ export default function Navbar({handleHome, handleAbout, handleProjects, handleC
             as={'nav'}
             spacing={4}
             display={{ base: 'none', lg: 'flex' }}    color={'white'}>
+              
              <div onClick={handleHome}> <NavLink  >Home</NavLink></div>
              <div onClick={handleAbout}>  <NavLink>About</NavLink></div>
              <div onClick={handletechStack}>  <NavLink>Skills</NavLink></div>
             
              <div onClick={handleProjects}> <NavLink>Projects</NavLink></div>
              <div onClick={handleContacts}>    <NavLink>Contacts</NavLink></div>
-             <div display="flex">
-             <a fontSize='100px' fontWeight='bold' rel="noreferrer" target="_blank" href='https://drive.google.com/file/d/1MIKbQePBvVrZoP3Wk-bWH0oA5oY_FyVI/view?usp=share_link'><Text fontSize={'18px'} fontWeight="bold">Resume</Text></a>
-             </div>
-             <div><a href='Nitin-Kondhari-Resume.pdf' download={'Nitin-Kondhari-Resume.pdf'}><Text fontSize={'18px'} fontWeight="bold"><DownloadIcon/></Text></a></div>
-             {/* <div><NavLink><a rel="noreferrer" target="_blank" href='https://drive.google.com/file/d/1MIKbQePBvVrZoP3Wk-bWH0oA5oY_FyVI/view?usp=share_link'>Resume</a></NavLink>
-             <NavLink><a href='Nitin-Kondhari-Resume.pdf' download={'Nitin-Kondhari-Resume.pdf'}><DownloadIcon/></a></NavLink>
-             </div> */}
+             <div onClick={handleClick}>  <a href="Nitin-Kondhari-Resume.pdf"  download="Nitin-Kondhari-Resume.pdf"  >
+                    
+                    <Text fontWeight={'bold'} fontSize={'19px'}>Resume</Text>  
+                    </a></div>
+             
+          
              
             </HStack>
             </Menu>
@@ -94,7 +99,7 @@ export default function Navbar({handleHome, handleAbout, handleProjects, handleC
               <NavLink><div onClick={handletechStack}>Skills</div></NavLink>
               <NavLink><div onClick={handleProjects}>Projects</div></NavLink>
               <NavLink><div onClick={handleContacts}>Contacts</div></NavLink>
-              <div> <a rel="noreferrer" target="_blank"  href='https://drive.google.com/file/d/1MIKbQePBvVrZoP3Wk-bWH0oA5oY_FyVI/view?usp=share_link' download="Nitin-Kondhari-Resume.pdf"><Text fontSize={'18px'} ml='10px' fontWeight="bold">Resume</Text></a></div>
+              <div onClick={handleClick}> <a href="Nitin-Kondhari-Resume.pdf"  download="Nitin-Kondhari-Resume.pdf" ><Text fontSize={'18px'} ml='10px' fontWeight="bold">Resume</Text></a></div>
           
             </Stack>
           </Box>

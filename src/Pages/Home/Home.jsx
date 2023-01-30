@@ -38,7 +38,10 @@ const Mobile = ({ children }) => {
  
 
   const { colorMode } = useColorMode();
-
+  const  handleClick=()=>{
+    console.log("yes")
+          window.open('https://drive.google.com/file/d/1MIKbQePBvVrZoP3Wk-bWH0oA5oY_FyVI/view?usp=share_link')
+      }
   return (
     <>
       <Desktop>
@@ -107,7 +110,8 @@ const Mobile = ({ children }) => {
                 bg={'teal.600'}
                 position={''}
                 _hover={{ bg: 'black' }}>
-                <a  href='Nitin-Kondhari-Resume.pdf' download={'Nitin-Kondhari-Resume.pdf'}>Resume <DownloadIcon /></a>
+                  
+                <a onClick={handleClick}  href='Nitin-Kondhari-Resume.pdf' download={'Nitin-Kondhari-Resume.pdf'}>Resume <DownloadIcon /></a>
               </Button>
             </Stack>
                 </Box>
@@ -204,7 +208,7 @@ const Mobile = ({ children }) => {
                 bg={'teal.600'}
                 position={''}
                 _hover={{ bg: 'black' }}>
-                <a  href='Nitin-Kondhari-Resume.pdf' download={'Nitin-Kondhari-Resume.pdf'}>Resume <DownloadIcon /></a>
+                <a  onClick={handleClick}  href='Nitin-Kondhari-Resume.pdf' download={'Nitin-Kondhari-Resume.pdf'}>Resume <DownloadIcon /></a>
                 
               </Button>
             </Stack>
@@ -297,7 +301,7 @@ const Mobile = ({ children }) => {
                 bg={'teal.600'}
                 position={''}
                 _hover={{ bg: 'black' }}>
-                <a  href='Nitin-Kondhari-Resume.pdf' download={'Nitin-Kondhari-Resume.pdf'}>Resume <DownloadIcon/></a>
+                <a  onClick={handleClick}  href='Nitin-Kondhari-Resume.pdf' download={'Nitin-Kondhari-Resume.pdf'}>Resume <DownloadIcon/></a>
                 
               </Button>
             </Stack>
