@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.994414c9.css",
-    "main.js": "/static/js/main.4303cc26.js",
+    "main.css": "/static/css/main.f9f751c4.css",
+    "main.js": "/static/js/main.0df8314e.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Youtube-clone.png": "/static/media/Youtube-clone.b112b549be7e3d7c25bf.png",
     "static/media/Indiatoday-Clone.png": "/static/media/Indiatoday-Clone.c7f8e566cebc33df23d7.png",
@@ -12,24 +12,24 @@
     "static/media/visual-studio-code-logo.png": "/static/media/visual-studio-code-logo.db93542ad04e4aac958e.png",
     "static/media/nextjs.png": "/static/media/nextjs.331efda6800a28298b1b.png",
     "static/media/contact.svg": "/static/media/contact.7902d4e71797e1f688fd.svg",
-    "static/media/react.svg": "/static/media/react.2b6a071759fcdac074f4dcad26eef347.svg",
+    "static/media/react.svg": "/static/media/react.c3a0b34aae466451a91157424eec1ee3.svg",
     "static/media/nodejs-icon.svg": "/static/media/nodejs-icon.615ffbea9529ca7047ed8a912bfd94b2.svg",
-    "static/media/mongoDB.svg": "/static/media/mongoDB.6c6da70249bd055e32474d63755dd3db.svg",
+    "static/media/mongoDB.svg": "/static/media/mongoDB.4428e2ce754003752672dce4c3d81b9d.svg",
     "static/media/redux.svg": "/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
-    "static/media/bootstrap.svg": "/static/media/bootstrap.19a2d2ff74985cbf49a1aed7fb4d5401.svg",
-    "static/media/git.svg": "/static/media/git.a0b8447eefa4cd939642f1017ee1c962.svg",
-    "static/media/javascript.svg": "/static/media/javascript.e9360603cdd412c8f9acb925313bc3f3.svg",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.3b3ab2cfe7cdf9d8eb417ce32f573b04.svg",
+    "static/media/git.svg": "/static/media/git.2d7df16e58dae6c26bba033ee2e8c4d8.svg",
+    "static/media/javascript.svg": "/static/media/javascript.f84ec7103324dc7e616d00ed43ecd531.svg",
     "static/media/express-js-icon.svg": "/static/media/express-js-icon.ea97b712340ffb8f11d85ccb96309507.svg",
-    "static/media/css.svg": "/static/media/css.43b6f4bdbc0f36b9f2dd15c6ebbcea15.svg",
-    "static/media/Octicons-mark-github.svg": "/static/media/Octicons-mark-github.255db585f8a0eb28a1e4deb91bde207d.svg",
-    "static/media/html.svg": "/static/media/html.6a342d61e4fe710cf3e5c05b65b0ac87.svg",
+    "static/media/css.svg": "/static/media/css.afb434f6d712d3e4ff53be8da4d9876a.svg",
+    "static/media/Octicons-mark-github.svg": "/static/media/Octicons-mark-github.3ea7d9bcdf7bb4836e2175ac2a12c306.svg",
+    "static/media/html.svg": "/static/media/html.75bdf0b057c088503944680032ea6347.svg",
     "index.html": "/index.html",
-    "main.994414c9.css.map": "/static/css/main.994414c9.css.map",
-    "main.4303cc26.js.map": "/static/js/main.4303cc26.js.map",
+    "main.f9f751c4.css.map": "/static/css/main.f9f751c4.css.map",
+    "main.0df8314e.js.map": "/static/js/main.0df8314e.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.994414c9.css",
-    "static/js/main.4303cc26.js"
+    "static/css/main.f9f751c4.css",
+    "static/js/main.0df8314e.js"
   ]
 }
