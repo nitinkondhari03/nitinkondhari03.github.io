@@ -1,116 +1,102 @@
+import { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import {
-  Box,
-  Flex,
-  HStack,
-  Link,
-  IconButton,
-  Button,
-  Menu,
-  MenuButton,
-  useDisclosure,
-  useColorModeValue,
-  Stack,Text
-} from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon} from '@chakra-ui/icons';
+  AiFillHome,
+  AiFillGithub,
+  AiFillProject,
+  AiFillStar,
+  AiFillPhone,
+} from "react-icons/ai";
+import '../styles/navbar.scss'
+import { MdAccountCircle } from "react-icons/md";
+import { HiDocumentText } from "react-icons/hi";
 
 
+const Navbar = () => {
+  const [clicked, setClicked] = useState(false);
 
+  const handleClicked = () => {
+    setClicked(!clicked);
+  };
 
-// const Links = ['Home', 'About', 'Skills', 'Projects', 'Contact'];
-
-const NavLink = ({children}) => (
-  <Link
-    fontSize={'18px'}
-    fontWeight={700}
-    px={3}
-    py={1}
-    rounded={'md'}
-    _hover={{
-      textDecoration: 'none',
-      bg: useColorModeValue('blue.200', 'blue.700'),
-    }}
-    >
-    {children}
-  </Link>
-);
-
-export default function Navbar({handleHome, handleAbout, handleProjects, handleContacts,handletechStack,handlegithubCalenders}) {
-  const { isOpen, onOpen, onClose } = useDisclosure();
-
-
-const  handleClick=()=>{
-  console.log("yes")
-        window.open('https://drive.google.com/file/d/1MIKbQePBvVrZoP3Wk-bWH0oA5oY_FyVI/view?usp=share_link')
-    }
+  const  handleClick=()=>{
+          window.open('https://drive.google.com/file/d/1MIKbQePBvVrZoP3Wk-bWH0oA5oY_FyVI/view?usp=share_link')
+      }
   return (
-    <>
-      <Box id="nav-menu" bg={"#319795"} px={4} position={'fixed'} zIndex={3}  width={'100%'}  >
-        <Flex h={20} alignItems={'center'} justifyContent={'space-between'}>
-          <IconButton
-            size={'md'}
-            icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-            aria-label={'Open Menu'}
-            display={{ lg: 'none' }}
-            onClick={isOpen ? onClose : onOpen}
-          />
-          <HStack spacing={8} alignItems={'center'}>
-            <Text color={'white'}>𝒩𝒾𝓉𝒾𝓃 𝒦𝑜𝓃𝒹𝒽𝒶𝓇𝒾</Text>
-          </HStack>
-          <Flex alignItems={'center'}>
-            <Menu>
-              <MenuButton
-            
-                as={Button}
-                rounded={'full'}
-                variant={'link'}
-                cursor={'pointer'}
-                minW={0}>
-              </MenuButton>
+    <nav className="navbar" id="nav-menu">
+      {/* LOGO */}
+      <div>
+        <a href="#home">
+          <p>
+          𝒩𝒾𝓉𝒾𝓃 
+          </p>
+          <p>𝒦𝑜𝓃𝒹𝒽𝒶𝓇𝒾</p>
+        </a>
+      </div>
 
-            <HStack
-            as={'nav'}
-            spacing={4}
-            display={{ base: 'none', lg: 'flex' }}    color={'white'}>
-              
-             <div onClick={handleHome}> <NavLink  >Home</NavLink></div>
-             <div onClick={handleAbout}>  <NavLink>About</NavLink></div>
-             <div onClick={handletechStack}>  <NavLink>Skills</NavLink></div>
-            
-             <div onClick={handleProjects}> <NavLink>Projects</NavLink></div>
-             <div onClick={handleContacts}>    <NavLink>Contacts</NavLink></div>
-             <div onClick={handleClick}>  <a href="Nitin-Kondhari-Resume.pdf"  download="Nitin-Kondhari-Resume.pdf"  >
-                    
-                    <Text fontWeight={'bold'} fontSize={'19px'}>Resume</Text>  
-                    </a></div>
-             
-          
-             
-            </HStack>
-            </Menu>
-          
-          </Flex>
-        </Flex>
+      {/* ALL ROUTES */}
+      <div id="nav" className={clicked ? "#nav active" : "#nav"}>
+        {/* Home */}
+        <a  class="nav-link home" href="#home">
+          <AiFillHome />
+          HOME
+        </a>
 
-        {isOpen ? (
-          <Box pb={4} display={{ lg: 'none' }}>
-            <Stack as={'nav'} spacing={4} color='white'>
-              <NavLink><div onClick={handleHome}>Home</div></NavLink>
-              <NavLink><div onClick={handleAbout}>About</div></NavLink>
-              <NavLink><div onClick={handletechStack}>Skills</div></NavLink>
-              <NavLink><div onClick={handleProjects}>Projects</div></NavLink>
-              <NavLink><div onClick={handleContacts}>Contacts</div></NavLink>
-              <div onClick={handleClick}> <a href="Nitin-Kondhari-Resume.pdf"  download="Nitin-Kondhari-Resume.pdf" ><Text fontSize={'18px'} ml='10px' fontWeight="bold">Resume</Text></a></div>
-          
-            </Stack>
-          </Box>
-        ) : null}
-      </Box>
-      {/* <Box p={8}>
-        <Home />
-        <About ref={about}/>
-        <Skills />
-      </Box> */}
-      
-    </>
+        {/* About Me */}
+        <a class="nav-link about" href="#about">
+          <MdAccountCircle />
+          ABOUT ME
+        </a>
+
+        {/* Github Stats */}
+
+        <a href="#github-stats">
+          <AiFillGithub />
+          GITHUB STATS
+        </a>
+
+        {/* Tech Stacks */}
+
+        <a class="nav-link skills" href="#skills">
+          <AiFillStar />
+          SKILLS
+        </a>
+
+        {/* Projects */}
+
+        <a class="nav-link projects" href="#projects">
+          <AiFillProject />
+          PROJECTS
+        </a>
+
+        {/* Contact */}
+
+        <a class="nav-link contact" href="#contact">
+          <AiFillPhone />
+          CONTACT
+        </a>
+
+        {/* Resume */}
+
+          <a  id="resume-button-1"  class="nav-link resume"
+  href="Nitin-Kondhari-Resume.pdf" 
+           download="Nitin-Kondhari-Resume.pdf"  >
+            <button d="resume-link-1" onClick={handleClick} >
+        {/* <HiDocumentText /> */}
+          RESUME  
+          </button>
+                   
+                    </a>
+      </div>
+
+      {/* For Mobile Screen */}
+      <div>
+        <span onClick={handleClicked}>
+          {clicked ? <FaTimes style={{backgroundColor:"black"}} /> : <FaBars style={{backgroundColor:"black"}} />}
+        </span>
+      </div>
+    </nav>
   );
-}
+};
+
+export default Navbar;

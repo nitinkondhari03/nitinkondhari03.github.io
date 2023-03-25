@@ -1,0 +1,45 @@
+.contact_cards {
+  border:1px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+  font-size: 18px;
+  height: 140px;
+  color: black;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+  width: 100px;
+  margin: auto;
+  margin-top: 10px;
+  color: black;
+}
+
+.contact_card_header {
+  font-weight: bold;
+  margin: 5px;
+  color: black;
+}
+
+.contact_card_header-social {
+  margin-top: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+.content {
+  color: black;
+}
+
+.form {
+  padding: 25px;
+  border:1px solid black;
+  height: auto;
+  margin: 15px;
+  margin-top: 20px;
+  margin-bottom: 85px;
+  border-radius: 5px;
+}
