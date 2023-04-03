@@ -11,17 +11,18 @@ import '../styles/navbar.scss'
 import { MdAccountCircle } from "react-icons/md";
 import { HiDocumentText } from "react-icons/hi";
 
-
+import {Link,Button,Text} from "@chakra-ui/react"
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
 
   const handleClicked = () => {
     setClicked(!clicked);
   };
-
   const  handleClick=()=>{
+    console.log("yes")
           window.open('https://drive.google.com/file/d/1MIKbQePBvVrZoP3Wk-bWH0oA5oY_FyVI/view?usp=share_link')
       }
+
   return (
     <nav className="navbar" id="nav-menu">
       {/* LOGO */}
@@ -75,18 +76,13 @@ const Navbar = () => {
           <AiFillPhone />
           CONTACT
         </a>
-
-        {/* Resume */}
-
-          <a  id="resume-button-1"  class="nav-link resume"
-  href="Nitin-Kondhari-Resume.pdf" 
-           download="Nitin-Kondhari-Resume.pdf"  >
-            <button d="resume-link-1" onClick={handleClick} >
-        {/* <HiDocumentText /> */}
-          RESUME  
-          </button>
-                   
-                    </a>
+        <a d="resume-link-1" class="nav-link resume" href="https://drive.google.com/uc?export=download&id=1MIKbQePBvVrZoP3Wk-bWH0oA5oY_FyVI"
+         onClick={handleClick}
+        >
+        <HiDocumentText   id="resume-button-1"/>RESUME
+       
+        </a>
+      
       </div>
 
       {/* For Mobile Screen */}

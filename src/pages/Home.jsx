@@ -4,16 +4,18 @@ import { FiDownload } from "react-icons/fi";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { IoMdMail } from "react-icons/io";
 import '../styles/home.scss'
+import { Button, Link } from "@chakra-ui/react";
 const Home = () => {
   const  handleClick=()=>{
-    window.open('https://drive.google.com/file/d/1MIKbQePBvVrZoP3Wk-bWH0oA5oY_FyVI/view?usp=share_link')
-}
+    console.log("yes")
+          window.open('https://drive.google.com/file/d/1MIKbQePBvVrZoP3Wk-bWH0oA5oY_FyVI/view?usp=share_link')
+      }
   return (
     <section  id="home">
       {/* Info */}
       <div>
         <span>Hi,My Name is</span>
-        <span id="user-detail-name">Nitin Kondhari</span>
+        <span >Nitin Kondhari</span>
         <Typewriter
           options={{
             strings: [
@@ -29,14 +31,14 @@ const Home = () => {
         />
         {/* Social Media & Resume Download Button */}
         <div>
-          {/* Resume Download Button */}
-          <a  id="resume-link-2" href="Nitin-Kondhari-Resume.pdf" onClick={handleClick} 
-           download="Nitin-Kondhari-Resume.pdf">
-            <button id="resume-button-2">
+        <a d="resume-link-2"  href="https://drive.google.com/uc?export=download&id=1MIKbQePBvVrZoP3Wk-bWH0oA5oY_FyVI"
+        onClick={handleClick}
+        >
+        <button id="resume-button-2">
               Resume <FiDownload />
             </button>
-          </a>
-
+        </a>
+         
           {/* Mail */}
           <a
             href="mailto:nitinkondhari85@gmail.com"

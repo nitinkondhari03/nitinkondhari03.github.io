@@ -42,7 +42,7 @@ const Contacts = () => {
             paddingBottom: "8px",
           }}
         >
-          CONTACTS
+          Contacts
         </span>
       </Text>
       <SimpleGrid columns={{ base: 1, sm: 1, md: 2, lg: 2 }}>

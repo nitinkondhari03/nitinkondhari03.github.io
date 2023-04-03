@@ -1,4 +1,4 @@
-.Skills {
+.skills-card{
   border: solid 1px black;
   padding: 10px;
   padding-top: 15px;
@@ -13,13 +13,13 @@
 
 }
 
-.Skill_icons {
+.skills-card-img{
   font-size: 55px;
   margin: auto;
   color: black;
 }
 
-.skill_text {
+.skills-card-name {
   font-weight: bold;
   margin-top: 10px;
   color: black;

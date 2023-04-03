@@ -44,7 +44,7 @@ const Skills = () => {
             paddingBottom: "8px",
           }}
         >
-          SKILLS
+          Skills
         </span>
       </Text>
       {/* Languages Framework & Libraries */}
@@ -65,45 +65,45 @@ const Skills = () => {
         paddingLeft={{ lg: "140px",md: "25px", sm: "30px" }}
         marginTop="0px"
       >
-        <Box className={"Skills"}>
-          <AiFillHtml5 className={"Skill_icons"} />
-          <Text className={"skill_text"}>HTML</Text>
+        <Box   className="skills-card">
+          <AiFillHtml5  className="skills-card-img"  />
+          <Text  className="skills-card-name">HTML</Text>
         </Box>
-        <Box className={"Skills"}>
-          <RiCss3Fill className={"Skill_icons"} />
-          <Text className={"skill_text"}>CSS</Text>
+        <Box   className="skills-card">
+          <RiCss3Fill  className="skills-card-img" />
+          <Text  className="skills-card-name">CSS</Text>
         </Box>
-        <Box className={"Skills"}>
-          <IoLogoJavascript className={"Skill_icons"} />
-          <Text className={"skill_text"}>JavaScript</Text>
+        <Box   className="skills-card">
+          <IoLogoJavascript  className="skills-card-img" />
+          <Text  className="skills-card-name">JavaScript</Text>
         </Box>
-        <Box className={"Skills"}>
-          <FaReact className={"Skill_icons"} />
-          <Text className={"skill_text"}>React</Text>
+        <Box   className="skills-card">
+          <FaReact  className="skills-card-img" />
+          <Text  className="skills-card-name">React</Text>
         </Box>
-        <Box className={"Skills"}>
-          <SiRedux className={"Skill_icons"} />
-          <Text className={"skill_text"}>Redux</Text>
+        <Box   className="skills-card">
+          <SiRedux  className="skills-card-img" />
+          <Text  className="skills-card-name">Redux</Text>
         </Box>
-        <Box className={"Skills"}>
-          <SiTypescript className={"Skill_icons"} />
-          <Text className={"skill_text"}>TypeScript</Text>
+        <Box   className="skills-card">
+          <SiTypescript  className="skills-card-img" />
+          <Text  className="skills-card-name">TypeScript</Text>
         </Box>
-        <Box className={"Skills"}>
-          <SiChakraui className={"Skill_icons"} />
-          <Text className={"skill_text"}>ChakraUI</Text>
+        <Box   className="skills-card">
+          <SiChakraui  className="skills-card-img" />
+          <Text  className="skills-card-name">ChakraUI</Text>
         </Box>
-        <Box className={"Skills"}>
-          <TbBrandNextjs className={"Skill_icons"} />
-          <Text className={"skill_text"}>NextJS</Text>
+        <Box   className="skills-card">
+          <TbBrandNextjs  className="skills-card-img" />
+          <Text  className="skills-card-name">NextJS</Text>
         </Box>
-        <Box className={"Skills"}>
-          <IoLogoNodejs className={"Skill_icons"} />
-          <Text className={"skill_text"}>NodeJS</Text>
+        <Box   className="skills-card">
+          <IoLogoNodejs  className="skills-card-img" />
+          <Text  className="skills-card-name">NodeJS</Text>
         </Box>
-        <Box className={"Skills"}>
-          <SiExpress className={"Skill_icons"} />
-          <Text className={"skill_text"}>ExpressJS</Text>
+        <Box   className="skills-card">
+          <SiExpress  className="skills-card-img" />
+          <Text  className="skills-card-name">ExpressJS</Text>
         </Box>
       </SimpleGrid>
 
@@ -126,33 +126,33 @@ const Skills = () => {
         paddingLeft={{lg:"140", md: "25px", sm: "30px" }}
         marginTop={"10px"}
       >
-        <Box className={"Skills"}>
-          <DiGit className={"Skill_icons"} />
-          <Text className={"skill_text"}>Git</Text>
+        <Box   className="skills-card">
+          <DiGit  className="skills-card-img" />
+          <Text  className="skills-card-name">Git</Text>
         </Box>
-        <Box className={"Skills"}>
-          <AiFillGithub className={"Skill_icons"} />
-          <Text className={"skill_text"}>GitHub</Text>
+        <Box   className="skills-card">
+          <AiFillGithub  className="skills-card-img" />
+          <Text  className="skills-card-name">GitHub</Text>
         </Box>
-        <Box className={"Skills"}>
-          <DiVisualstudio className={"Skill_icons"} />
-          <Text className={"skill_text"}>VS code</Text>
+        <Box   className="skills-card">
+          <DiVisualstudio  className="skills-card-img" />
+          <Text  className="skills-card-name">VS code</Text>
         </Box>
-        <Box className={"Skills"}>
-          <SiMongodb className={"Skill_icons"} />
-          <Text className={"skill_text"}>MongoDB</Text>
+        <Box   className="skills-card">
+          <SiMongodb  className="skills-card-img" />
+          <Text  className="skills-card-name">MongoDB</Text>
         </Box>
-        <Box className={"Skills"}>
-          <SiCypress className={"Skill_icons"} />
-          <Text className={"skill_text"}>Cypress</Text>
+        <Box   className="skills-card">
+          <SiCypress  className="skills-card-img" />
+          <Text  className="skills-card-name">Cypress</Text>
         </Box>
-        <Box className={"Skills"}>
-          <DiNpm className={"Skill_icons"} />
-          <Text className={"skill_text"}>NPM</Text>
+        <Box   className="skills-card">
+          <DiNpm  className="skills-card-img" />
+          <Text  className="skills-card-name">NPM</Text>
         </Box>
-        <Box className={"Skills"}>
-          <SiStorybook className={"Skill_icons"} />
-          <Text className={"skill_text"}>Storybook</Text>
+        <Box   className="skills-card">
+          <SiStorybook  className="skills-card-img" />
+          <Text  className="skills-card-name">Storybook</Text>
         </Box>
       </SimpleGrid>
     </Box>

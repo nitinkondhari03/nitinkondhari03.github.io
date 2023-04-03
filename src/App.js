@@ -9,8 +9,8 @@ import Github from './pages/GithubStats'
 import About from './pages/About';
 function App() {
   return (
-    <div className="App">
-    <Navbar />
+    <div className="App" >
+    <Navbar  />
     <Home/>
     <About/>
     <Github/>

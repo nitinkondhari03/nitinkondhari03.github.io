@@ -82,7 +82,7 @@ const Projects = () => {
             paddingBottom: "8px",
           }}
         >
-         PROJECTS
+          Projects
         </span>
       </Text>
 

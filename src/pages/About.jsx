@@ -2,10 +2,10 @@ import { Box, Flex, Text } from "@chakra-ui/react";
 import React from "react";
 import img from "../assets/img.png";
 
-const About = () => {
+const About  = () => {
   return (
-    <Box
-    id="about" class="about section"
+    <div  id="about" class="about section">
+    <Box 
       style={{
         width: "100%",
         backgroundColor: "white",
@@ -21,6 +21,7 @@ const About = () => {
         marginLeft={{ md: "25px", base: "10px" }}
       >
         <span
+        
           style={{
             borderBottom: "solid",
             padding: "0px",
@@ -28,7 +29,7 @@ const About = () => {
             paddingBottom: "8px",
           }}
         >
-          ABOUT ME
+          About
         </span>
       </Text>
       <Flex
@@ -56,7 +57,7 @@ const About = () => {
           width={{ base: "100%", md: "100%" }}
           textAlign={{base:"left",md:"left",sm:"left",lg:"left"}}
         >
-          <Text color={"black"} fontSize={{ base: "25px", md: "25px" }}>
+          <Text color={"black"} fontSize={{ base: "25px", md: "25px" }} id="user-detail-name" >
             I'm Nitin Kondhari
           </Text>
           <Text
@@ -73,6 +74,7 @@ const About = () => {
         </Box>
       </Flex>
     </Box>
+    </div>
   );
 };
 
