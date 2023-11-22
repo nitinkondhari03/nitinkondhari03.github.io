@@ -66,8 +66,7 @@
       transition: 1s ease-in-out;
       position: relative;
 
-      &:hover,
-      &.active {
+      &:hover{
         color: $blue;
       }
 

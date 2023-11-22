@@ -11,14 +11,15 @@
   margin-top: 0px;
 
   > div:first-child {
-
-    
+   margin: auto;
+    width: 30%;
     height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding-left: 60px;
+    
 
     > span {
       margin: 0;

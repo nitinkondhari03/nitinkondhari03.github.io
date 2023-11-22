@@ -79,6 +79,7 @@ const Contacts = () => {
                 href="https://www.linkedin.com/in/nitinkondhari/"
                 target="_blank"
                 rel="noreferrer"
+                style={{color:"black"}}
               >
                 <BsLinkedin />
               </a>
@@ -87,6 +88,7 @@ const Contacts = () => {
                 href="https://github.com/nitinkondhari03"
                 target="_blank"
                 rel="noreferrer"
+                style={{color:"black"}}
               >
                 <AiOutlineGithub />
               </a>

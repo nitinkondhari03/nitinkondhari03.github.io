@@ -13,10 +13,11 @@ const Home = () => {
   return (
     <section  id="home">
       {/* Info */}
-      <div>
+      <div >
         <span>Hi,My Name is</span>
         <span >Nitin Kondhari</span>
         <Typewriter
+      
           options={{
             strings: [
               "Full Stack Web Developer.",

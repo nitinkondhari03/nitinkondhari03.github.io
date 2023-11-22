@@ -1,6 +1,6 @@
 import { Box, Flex, Text } from "@chakra-ui/react";
 import React from "react";
-import img from "../assets/img.png";
+import nitin_kondhari from "../assets/nitin_kondhari.jpg"
 
 const About  = () => {
   return (
@@ -40,13 +40,12 @@ const About  = () => {
         <Box padding={"25px"} marginLeft={"100px"} width={{ base: "100%", md: "50%", sm: "45%" }}>
           <img
           class="home-img"
-            src={img}
+            src={nitin_kondhari}
             alt="headshot"
             style={{
               width: "70%",
-              
+              objectFit:"cover",
               boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
-              border: "1px solid black",
               borderTopLeftRadius: "15px",
               borderBottomRightRadius: "15px",
             }}

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from '../src/components/Navbar'
 import Home from './pages/Home';
@@ -7,6 +7,8 @@ import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 import Github from './pages/GithubStats'
 import About from './pages/About';
+import Footer from "./pages/Footer"
+
 function App() {
   return (
     <div className="App" >
@@ -17,7 +19,7 @@ function App() {
     <Skills/>
     <Projects/>
     <Contact/>
-    
+    <Footer/>
     </div>
   );
 }
