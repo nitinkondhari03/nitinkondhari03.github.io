@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a6459b7.css",
-    "main.js": "/static/js/main.d8241e12.js",
+    "main.css": "/static/css/main.b9f98aa2.css",
+    "main.js": "/static/js/main.3c90b56e.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/gadgetHomepage.png": "/static/media/gadgetHomepage.a1f1e2a565a5a389be41.png",
     "static/media/indiatoday3.png": "/static/media/indiatoday3.49750785de5713777cdc.png",
@@ -34,7 +34,6 @@
     "static/media/oasis4.jpg": "/static/media/oasis4.98e52956a1b772fe7360.jpg",
     "static/media/EcoMyProfile.png": "/static/media/EcoMyProfile.319237d22bab7f371734.png",
     "static/media/oasis5.jpg": "/static/media/oasis5.1990e286eb84cf5e027a.jpg",
-    "static/media/img.png": "/static/media/img.575ea9057312eafe203c.png",
     "static/media/indiatoday2.png": "/static/media/indiatoday2.b1bc07c8dabb29aee25b.png",
     "static/media/EcoOrdersPage.png": "/static/media/EcoOrdersPage.ea0adb5ed5a4d47e641a.png",
     "static/media/EcoAdminProductpage.png": "/static/media/EcoAdminProductpage.d648838af58676b18596.png",
@@ -68,12 +67,12 @@
     "static/media/EcoForgetPassword.png": "/static/media/EcoForgetPassword.7c90c58e1300cd1467c1.png",
     "static/media/javascript.png": "/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
-    "main.2a6459b7.css.map": "/static/css/main.2a6459b7.css.map",
-    "main.d8241e12.js.map": "/static/js/main.d8241e12.js.map",
+    "main.b9f98aa2.css.map": "/static/css/main.b9f98aa2.css.map",
+    "main.3c90b56e.js.map": "/static/js/main.3c90b56e.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a6459b7.css",
-    "static/js/main.d8241e12.js"
+    "static/css/main.b9f98aa2.css",
+    "static/js/main.3c90b56e.js"
   ]
 }
