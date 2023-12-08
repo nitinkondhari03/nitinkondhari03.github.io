@@ -1,30 +1,28 @@
-@import "colors";
+
 
 #home {
+  width: 100%;
+  height: auto;
   padding: 80px 0 0 0;
-  background-color:white;
-  color: $white;
+  background-color: white;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "monospace";
-  margin-top: 0px;
 
   > div:first-child {
-   margin: auto;
-    width: 30%;
+    margin-top: -30px;
+    width: 45%;
     height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding-left: 60px;
-    
 
     > span {
       margin: 0;
       padding: 0;
-      color: black;
     }
 
     > span:first-child {
@@ -35,6 +33,7 @@
 
     > span:nth-child(2) {
       font-size: 50px;
+      text-transform: capitalize;
       margin-bottom: 20px;
       font-weight: 500;
       letter-spacing: 2px;
@@ -69,8 +68,8 @@
           border: none;
           outline: none;
           font-weight: bold;
-          color: $white;
-          background-color:  black;
+          color: white;
+          background-color: black;
           font-size: 18px;
           text-transform: uppercase;
           border-radius: 10px;
@@ -81,28 +80,46 @@
     }
   }
 
+  > div:last-child {
+    margin-top: -30px;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    > img {
+      width: 75%;
+      border-radius: 50%;
+      box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+      border: 1px solid black;
+    }
+  }
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 900px) {
   #home {
     height: auto;
     flex-direction: column-reverse;
-    margin-bottom: -300px;
-    margin-top: 0px;
-   
-
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
     > div:first-child {
-      width: 50%;
+      width: 80%;
+      margin: auto;
+      height: auto;
+      margin-top: 10px;
+      
 
       > span:first-child {
         font-size: 22px;
-        margin-top: -300px;
+        
       }
 
       > span:nth-child(2) {
         font-size: 35px;
         margin-bottom: 0px;
+        
       }
 
       > div > span {
@@ -110,17 +127,25 @@
       }
     }
 
-   
+    > div:last-child {
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+      
+
+      > img {
+        width: 42%;
+        
+      }
+    }
   }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 454px) {
   #home {
     flex-direction: column-reverse;
     height: auto;
     padding: 100px 0 0 0;
-    margin-top: 250px;
-    margin-bottom: 0px;
 
     > div:first-child {
       width: 100%;
@@ -145,6 +170,14 @@
       }
     }
 
-   
+    > div:last-child {
+      width: 100%;
+      margin-top: 0px;
+      height: auto;
+
+      > img {
+        width: 60%;
+      }
+    }
   }
 }

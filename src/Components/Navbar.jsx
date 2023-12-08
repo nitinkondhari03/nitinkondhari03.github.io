@@ -27,7 +27,7 @@ const Navbar = () => {
       }
 
   return (
-    <nav className="navbar" id="nav-menu">
+    <nav className="navbar" id="nav-menu"  >
       {/* LOGO */}
       <div>
         <a href="#home">

@@ -62,7 +62,7 @@ const Skills = () => {
         columns={{ base: 2, sm: 3, md: 4, lg: 4 }}
         spacing={{ base: 5, md: 10 }}
         color={"rgb(205,215,246)"}
-        paddingLeft={{ lg: "140px",md: "25px", sm: "30px" }}
+        paddingLeft={{base:"30px", lg: "140px",md: "25px", sm: "20px" }}
         marginTop="0px"
       >
         <Box   className="skills-card">
@@ -119,11 +119,10 @@ const Skills = () => {
         Tools
       </Text>
       <SimpleGrid
-        columns={{ base: 2, sm: 3, md: 4, lg: 4 }}
-        spacing={{ base: 5, md: 10 }}
-        color="black"
-        margin={{ md: "25px" }}
-        paddingLeft={{lg:"140", md: "25px", sm: "30px" }}
+       columns={{ base: 2, sm: 3, md: 4, lg: 4 }}
+       spacing={{ base: 5, md: 10 }}
+       color={"rgb(205,215,246)"}
+       paddingLeft={{base:"30px", lg: "140px",md: "25px", sm: "20px" }}
         marginTop={"10px"}
       >
         <Box   className="skills-card">

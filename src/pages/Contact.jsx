@@ -16,6 +16,7 @@ import "../styles/contact.css"
 const Contacts = () => {
   return (
     <Box
+   
       style={{
         width: "100%",
         backgroundColor: "white",

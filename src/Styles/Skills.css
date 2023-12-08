@@ -8,6 +8,7 @@
   text-align: center;
   display: grid;
   align-items: center;
+  align-content: center;
   border-top-left-radius: 12px;
   border-bottom-right-radius: 12px;
 
@@ -24,4 +25,32 @@
   margin-top: 10px;
   color: black;
   font-size: 22px;
+}
+@media screen and (max-width: 1025px) {
+  .skills-card{
+    border: solid 1px black;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  
+  }
+  .skills-card-img{
+    font-size: 40px;
+    margin: auto;
+    color: black;
+  }
+  
+  .skills-card-name {
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+    font-size: 18px;
+  }
 }

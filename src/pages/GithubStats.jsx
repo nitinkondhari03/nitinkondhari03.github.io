@@ -26,7 +26,7 @@ function GithubStats() {
 	};
 
 	return (
-		<div  id="github-stats" className="github-main">
+		<div  id="github-stats" className="github-main" style={{ fontFamily: "monospace"}}>
 		<Text
         color="black"
         fontSize={{ md: "35px", base: "28px" }}
@@ -45,18 +45,44 @@ function GithubStats() {
           GitHub
         </span>
       </Text>
-			<div className="github-calender">
+			<div id="laptop" className="github-calender">
 				<GitHubCalendar
 					className="github-calendar-class"
 					transformData={selectLast12Months}
 					username="nitinkondhari03"
-					color={"black"}
-					blockSize={20}
-					fontSize={20}
+					colorScheme="dark"
+					color={'black'}
+					blockRadius="50"
+					blockSize={22}
+					style={{
+						fontSize:"8px"
+					}}
 					showColorLegend
-					hideTotalCount
+					
+					labels={{
+						totalCount: '{{count}} contributions in the last year',
+					    }}
 				>
 					<ReactTooltip delayShow={20} html />
+				</GitHubCalendar>
+			</div>
+			<div  id="mobile" className="github-calender">
+				<GitHubCalendar
+					className="github-calendar-class"
+					transformData={selectLast12Months}
+					username="nitinkondhari03"
+					colorScheme="dark"
+					color={'black'}
+					blockRadius="50"
+					blockSize={10}
+					fontSize={8}
+					showColorLegend
+					
+					labels={{
+						totalCount: '{{count}} contributions in the last year',
+					    }}
+				>
+					<ReactTooltip delayShow={10} html />
 				</GitHubCalendar>
 			</div>
 			<div className="github-stats">

@@ -1,4 +1,4 @@
-@import "colors";
+
 
 .navbar {
   width: 100%;
@@ -52,7 +52,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: $white;
+    color: white;
     gap: 2rem;
 
     > a {
@@ -67,7 +67,7 @@
       position: relative;
 
       &:hover{
-        color: $blue;
+        color: black;
       }
 
       &:hover::after,
@@ -75,7 +75,7 @@
         content: "";
         width: 80%;
         height: 2px;
-        background: $blue;
+        background: black;
         position: absolute;
         bottom: -4px;
         left: 0px;
@@ -88,7 +88,7 @@
     display: none;
 
     > span {
-      color: $white;
+      color: white;
       cursor: pointer;
       margin-right: 2rem;
       font-size: 1.5rem;

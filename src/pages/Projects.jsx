@@ -100,15 +100,15 @@ import gadget13 from "../assets/projects/GadgetGalaxy/gadgetAdminEditProduct.png
 
 
 const Projects = () => {
-  // const project_one = [expedia1,expedia2,expedia3,expedia4,expedia5,expedia6];
+
   const project_one=[ecommerce1,ecommerce2,ecommerce3,ecommerce4,ecommerce5,ecommerce6,ecommerce7,ecommerce8,ecommerce9,ecommerce10,ecommerce11,ecommerce12,ecommerce13,ecommerce14,ecommerce15,ecommerce16,ecommerce17,ecommerce18,ecommerce19,ecommerce20]
-  // const project_two = [indiatoday1,indiatoday2,indiatoday3,indiatoday4,indiatoday5,indiatoday6];
+
   const project_two=[gadget1,gadget2,gadget3,gadget4,gadget5,gadget6,gadget7,gadget8,gadget9,gadget10,gadget11,gadget12,gadget13]
   const project_three = [img1,img2,img3,img4,img5,img6];
   const project_four = [reliancedigital1,reliancedigital2,reliancedigital3,reliancedigital4,reliancedigital5,reliancedigital6];
 
   return (
-    <section  id="projects">
+    <section  id="projects" style={{ fontFamily: "monospace"}}>
        <Text
         color="black"
         fontSize={{ md: "35px", base: "28px" }}
@@ -128,72 +128,7 @@ const Projects = () => {
       </Text>
 
       <div>
-        {/* Project 1 */}
-        {/* <div class="project-card">
-          
-          <div>
-            <Carousel autoPlay infiniteLoop>
-              {project_one.map((item, i) => (
-                <img
-                  className="slider_img"
-                  key={i}
-                  src={item}
-                  alt="Beauty Bebo Clone"
-                />
-              ))}
-            </Carousel>
-          </div>
-          
-          <div className="content">
-            <h1 class="project-title">Expedia.com-Clone</h1>
-
-            <p class="project-description">
-Expedia.com is an online travel agency owned by Expedia Group, based in Seattle.The website and mobile app can be used to book airline tickets, hotel reservations, car rentals, cruise ships, and vacation packages.
-            </p>
-
-            <h2>Tech Stacks</h2>
-            <div>
-            <Box style={{width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
-          <FaReact style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text>React</Text>
-        </Box>
-        <Box style={{ width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
-          <RiCss3Fill style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text>CSS</Text>
-        </Box>
-        <Box style={{width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
-          <SiChakraui style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text>ChakraUI</Text>
-        </Box>
-              
-            </div>
-
-            <p>
-            An individual project was completed in 4 days.
-            </p>
-
-            <div>
-              <a
-              class="project-github-link"
-                href="https://github.com/nitinkondhari03/Expedia-Clone/tree/main/receptive-top-1546"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <BsGithub />
-                GitHub
-              </a>
-              <a
-              class="project-deployed-link"
-                href="https://reliable-treacle-f527ab.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <BsEyeFill />
-                Live
-              </a>
-            </div>
-          </div>
-        </div> */}
+       
 
         <div class="project-card">
           
@@ -219,30 +154,30 @@ Expedia.com is an online travel agency owned by Expedia Group, based in Seattle.
      
             <h2>Tech Stacks</h2>
             <div>
-            <Box style={{width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+            <Box width={{base:"20%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}} style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <FaReact style={{margin:'auto',paddingTop:'2px'}}/>
           <Text>React</Text>
         </Box>
-        <Box style={{ width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+        <Box width={{base:"20%",sm:"20%", md: "17%", lg: "15%",xl:"20%","2xl":"15%"}} style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <SiRedux style={{margin:'auto',paddingTop:'2px'}}/>
           <Text class="project-tech-stack">Redux</Text>
         </Box>
-        <Box style={{ width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+        <Box width={{base:"20%",sm:"20%",md: "17%", lg: "15%",xl:"20%","2xl":"15%"}} style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <RiCss3Fill style={{margin:'auto',paddingTop:'2px'}}/>
           <Text>CSS</Text>
         </Box>
               
             </div>
             <div>
-            <Box style={{width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+            <Box width={{base:"27%",sm:'21%',md: "18%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <IoLogoNodejs style={{margin:'auto',paddingTop:'2px'}}/>
           <Text>Nodejs</Text>
         </Box>
-            <Box style={{width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+            <Box width={{base:"27%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <SiExpress style={{margin:'auto',paddingTop:'2px'}}/>
           <Text>Express</Text>
         </Box>
-        <Box style={{ width:'85px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+        <Box width={{base:"30%",sm:'22%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{ border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <SiMongodb style={{margin:'auto',paddingTop:'2px'}}/>
           <Text>Mongodb</Text>
         </Box>
@@ -276,75 +211,7 @@ Expedia.com is an online travel agency owned by Expedia Group, based in Seattle.
           </div>
         </div>
 
-        {/* Project 2 */}
-        {/* <div class="project-card">
-         
-          <div>
-            <Carousel autoPlay infiniteLoop >
-              {project_two.map((item, i) => (
-                <img
-                  className="slider_img"
-                  key={i}
-                  src={item}
-                  alt="SSENSE Clone"
-                />
-              ))}
-            </Carousel>
-          </div>
-         
-          <div className="content">
-            <h1 class="project-title">Indiatoday.com-Clone</h1>
-
-            <p class="project-description">
-            India Today is a weekly Indian English-language news magazine published 
-            by living media it is the most widely circulated magazine 
-            in India, with a readership of close to 8 million. In 2014, India Today 
-            launched a new online opinion-orientated site.
-            </p>
-
-            <h2>Tech Stacks</h2>
-            <div>
-            <Box style={{ width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
-          <AiFillHtml5 style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text class="project-tech-stack">HTML</Text>
-        </Box>
-            <Box style={{ width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
-          <RiCss3Fill style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text class="project-tech-stack">CSS</Text>
-        </Box>
-        <Box style={{ width:'85px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
-          <IoLogoJavascript style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text class="project-tech-stack">JavaScript</Text>
-        </Box>
-            </div>
-
-            <p>
-              A collaborative project was built by a team of 4 and executed in 5
-              days.
-            </p>
-
-            <div>
-              <a
-              class="project-github-link"
-                href="https://github.com/nitinkondhari03/abrupt-kitty-9277"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <BsGithub />
-                GitHub
-              </a>
-              <a
-              class="project-deployed-link"
-                href="https://sparkly-kitten-6c9a45.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <BsEyeFill />
-                Live
-              </a>
-            </div>
-          </div>
-        </div> */}
+        
         <div class="project-card">
           
           <div>
@@ -369,36 +236,37 @@ Expedia.com is an online travel agency owned by Expedia Group, based in Seattle.
 
             <h2>Tech Stacks</h2>
             <div>
-            <Box style={{width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+            <Box width={{base:"20%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <FaReact style={{margin:'auto',paddingTop:'2px'}}/>
           <Text>React</Text>
         </Box>
-        <Box style={{ width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+        <Box width={{base:"20%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{ border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <SiRedux style={{margin:'auto',paddingTop:'2px'}}/>
           <Text class="project-tech-stack">Redux</Text>
         </Box>
-        <Box style={{ width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+        <Box width={{base:"18%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <RiCss3Fill style={{margin:'auto',paddingTop:'2px'}}/>
           <Text>CSS</Text>
         </Box>
-        <Box style={{width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
-          <SiChakraui style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text>ChakraUI</Text>
+        <Box width={{base:"24%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+          <IoLogoNodejs style={{margin:'auto',paddingTop:'2px'}}/>
+          <Text>Nodejs</Text>
         </Box>
               
             </div>
             <div>
-            <Box style={{width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
-          <IoLogoNodejs style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text>Nodejs</Text>
-        </Box>
-            <Box style={{width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+           
+            <Box width={{base:"27%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <SiExpress style={{margin:'auto',paddingTop:'2px'}}/>
           <Text>Express</Text>
         </Box>
-        <Box style={{ width:'85px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+        <Box width={{base:"30%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <SiMongodb style={{margin:'auto',paddingTop:'2px'}}/>
           <Text>Mongodb</Text>
+        </Box>
+        <Box width={{base:"30%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+          <SiChakraui style={{margin:'auto',paddingTop:'2px'}}/>
+          <Text>ChakraUI</Text>
         </Box>
               
             </div>
@@ -450,19 +318,19 @@ Expedia.com is an online travel agency owned by Expedia Group, based in Seattle.
 
             <h2>Tech Stacks</h2>
             <div>
-            <Box style={{width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+            <Box width={{base:"20%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <FaReact style={{margin:'auto',paddingTop:'2px'}}/>
           <Text class="project-tech-stack">React</Text>
         </Box>
-        <Box style={{ width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+        <Box width={{base:"20%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{ border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <SiRedux style={{margin:'auto',paddingTop:'2px'}}/>
           <Text class="project-tech-stack">Redux</Text>
         </Box>
-        <Box style={{ width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+        <Box width={{base:"18%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{ border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <RiCss3Fill style={{margin:'auto',paddingTop:'2px'}}/>
           <Text class="project-tech-stack">CSS</Text>
         </Box>
-        <Box style={{width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+        <Box width={{base:"29%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <SiChakraui style={{margin:'auto',paddingTop:'2px'}}/>
           <Text class="project-tech-stack">ChakraUI</Text>
         </Box>
@@ -519,31 +387,25 @@ Expedia.com is an online travel agency owned by Expedia Group, based in Seattle.
 
             <h2>Tech Stacks</h2>
             <div>
-            <Box style={{width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+            <Box width={{base:"20%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <FaReact style={{margin:'auto',paddingTop:'2px'}}/>
           <Text class="project-tech-stack">React</Text>
         </Box>
-        <Box style={{ width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+        <Box width={{base:"20%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}   style={{ border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <SiRedux style={{margin:'auto',paddingTop:'2px'}}/>
           <Text class="project-tech-stack">Redux</Text>
         </Box>
-        {/* <Box style={{width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
-          <IoLogoNodejs style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text>Nodejs</Text>
-        </Box>
-        <Box style={{width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
-          <SiExpress style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text>ExpressJS</Text>
-        </Box> */}
-        <Box style={{ width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+        
+        <Box width={{base:"18%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{ border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <RiCss3Fill style={{margin:'auto',paddingTop:'2px'}}/>
           <Text class="project-tech-stack">CSS</Text>
         </Box>
-        <Box style={{width:'80px',border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
+        <Box width={{base:"29%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <SiChakraui style={{margin:'auto',paddingTop:'2px'}}/>
           <Text class="project-tech-stack">ChakraUI</Text>
         </Box>
             </div>
+            
 
             <p>
             A collaborative project was built by a team of 4 and executed in 5
