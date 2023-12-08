@@ -75,6 +75,7 @@ const Home = () => {
 
           {/* Mail */}
           <motion.a
+           {...options}
             whileHover={{ scale: [null, 1.5, 1.4] }}
             transition={{ duration: 0.3 }}
             href="mailto:nitinkondhari85@gmail.com"
@@ -86,6 +87,7 @@ const Home = () => {
 
           {/* LinkedIn */}
           <motion.a
+           {...options}
             whileHover={{ scale: [null, 1.5, 1.4] }}
             transition={{ duration: 0.3 }}
             href="https://www.linkedin.com/in/nitinkondhari/"
@@ -97,6 +99,7 @@ const Home = () => {
 
           {/* Github */}
           <motion.a
+           {...options}
             whileHover={{ scale: [null, 1.5, 1.4] }}
             transition={{ duration: 0.3 }}
             href="https://github.com/nitinkondhari03"

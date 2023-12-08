@@ -8,6 +8,7 @@ import {
   AiFillPhone,
 } from "react-icons/ai";
 import '../styles/navbar.scss'
+import { motion } from "framer-motion";
 import { MdAccountCircle } from "react-icons/md";
 import { HiDocumentText } from "react-icons/hi";
 import { useLocation } from 'react-router-dom'
@@ -39,7 +40,14 @@ const Navbar = () => {
       </div>
 
       {/* ALL ROUTES */}
-      <div id="nav" className={clicked ? "#nav active" : "#nav"}>
+      <motion.div
+  
+      animate={{x:[1000,0]}}
+      transition={{
+        duration:"3",
+        delay:"1"
+      }}
+      id="nav" className={clicked ? "#nav active" : "#nav"}>
         {/* Home */}
        {location.hash==="#home"? <a style={{color:"teal"}} class="nav-link home" href="#home" >
           <AiFillHome />
@@ -105,7 +113,7 @@ const Navbar = () => {
        
         </a>
       
-      </div>
+      </motion.div>
 
       {/* For Mobile Screen */}
       <div>
