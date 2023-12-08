@@ -129,7 +129,7 @@ const Projects = () => {
 
       <div>
        
-
+        {/* Peoject 1 */}
         <div class="project-card">
           
           <div>
@@ -211,7 +211,7 @@ const Projects = () => {
           </div>
         </div>
 
-        
+        {/* Peoject 2 */}
         <div class="project-card">
           
           <div>

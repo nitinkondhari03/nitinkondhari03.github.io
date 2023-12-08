@@ -125,29 +125,160 @@
 }
 
 @media screen and (max-width: 426px) {
-  #projects {
-    > h1 {
-      font-size: 35px;
-    }
+//   #projects {
+//     > h1 {
+//       font-size: 35px;
+//     }
+
+//     > div {
+//       width: 90%;
+//     }
+//   }
+// }
+#projects {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  background-color: white;
+  color: black;
+ 
+
+  > h1 {
+    font-size: 35px;
+  }
+
+  > div {
+    width: 90%;
+
+    
 
     > div {
-      width: 95%;
+     
+      > div {
+        .slider_img {
+          border-top-left-radius: 100px;
+          border-bottom:1px solid black;
+          height: 250px;
+         
+        }
+      }
+
+      .content {
+        height: auto;
+
+        > h1 {
+         
+         
+        }
+
+        > h2 {
+         
+        }
+
+        > p {
+          font-size: 15px;
+        }
+
+        > div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 16px;
+          margin-bottom: 15px;
+
+          > a {
+            
+            padding: 8px 15px;
+          }
+
+          > img {
+            width: 30px;
+      height: 30px;
+          }
+        }
+      }
     }
   }
 }
+}
 
 @media screen and (max-width: 376px) {
+  // #projects {
+  //   > h1 {
+  //     font-size: 28px;
+  //   }
+
+  //   > div {
+  //     width: 90%;
+
+  //     > div .content > div > img {
+  //       width: 30px;
+  //       height: 30px;
+  //     }
+  //   }
+  // }
   #projects {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    background-color: white;
+    color: black;
+   
+  
     > h1 {
-      font-size: 28px;
+      font-size: 28px; 
     }
-
+  
     > div {
-      width: 95%;
+      width: 90%;
 
-      > div .content > div > img {
-        width: 30px;
+      
+  
+      > div {
+       
+        > div {
+          .slider_img {
+            border-top-left-radius: 100px;
+            border-bottom:1px solid black;
+            height: 250px;
+           
+          }
+        }
+  
+        .content {
+          height: auto;
+  
+          > h1 {
+           
+           
+          }
+  
+          > h2 {
+           
+          }
+  
+          > p {
+            font-size: 15px;
+          }
+  
+          > div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 15px;
+  
+            > a {
+              
+              padding: 8px 15px;
+            }
+  
+            > img {
+              width: 30px;
         height: 30px;
+            }
+          }
+        }
       }
     }
   }
