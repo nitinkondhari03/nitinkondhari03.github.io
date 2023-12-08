@@ -26,13 +26,13 @@
     }
 
     > span:first-child {
-      font-size: 30px;
+      font-size: 2vmax;
       font-weight: 400;
       margin-bottom: 20px;
     }
 
     > span:nth-child(2) {
-      font-size: 50px;
+      font-size: 2.5vmax;
       text-transform: capitalize;
       margin-bottom: 20px;
       font-weight: 500;
@@ -40,7 +40,7 @@
     }
 
     > div > span {
-      font-size: 35px;
+      font-size: 1.9vmax;
       font-weight: 500;
       color: black;
     }
@@ -70,7 +70,7 @@
           font-weight: bold;
           color: white;
           background-color: black;
-          font-size: 18px;
+          font-size: 0.9rem;
           text-transform: uppercase;
           border-radius: 10px;
           cursor: pointer;
@@ -112,18 +112,35 @@
       
 
       > span:first-child {
-        font-size: 22px;
+        font-size: 2vmax;
         
       }
 
       > span:nth-child(2) {
-        font-size: 35px;
+        font-size: 2.5vmax;
         margin-bottom: 0px;
         
       }
 
       > div > span {
-        font-size: 25px;
+        font-size: 1.9vmax;
+      }
+      div {
+      
+  
+        a {
+          text-decoration: none;
+  
+          > svg {
+            color: black;
+           
+          }
+  
+          > button {
+            
+            padding: 10px 10px;
+          }
+        }
       }
     }
 
@@ -153,20 +170,34 @@
       margin: 30px 0px;
 
       > span:first-child {
-        font-size: 22px;
+        font-size: 2vmax;
       }
 
       > span:nth-child(2) {
-        font-size: 30px;
+        font-size: 2.5vmax;
         margin-bottom: 0px;
       }
 
       > div > span {
-        font-size: 20px;
+        font-size: 1.9vmax;
       }
 
-      > div {
+      div {
         gap: 1rem;
+  
+        a {
+          text-decoration: none;
+  
+          > svg {
+            color: black;
+           
+          }
+  
+          > button {
+            
+            padding: 9px 9px;
+          }
+        }
       }
     }
 
