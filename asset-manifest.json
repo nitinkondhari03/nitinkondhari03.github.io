@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e0d3d6b.css",
+    "main.css": "/static/css/main.4fd78ad9.css",
     "main.js": "/static/js/main.2e673de7.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/gadgetHomepage.png": "/static/media/gadgetHomepage.a1f1e2a565a5a389be41.png",
@@ -67,12 +67,12 @@
     "static/media/EcoForgetPassword.png": "/static/media/EcoForgetPassword.7c90c58e1300cd1467c1.png",
     "static/media/javascript.png": "/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
-    "main.4e0d3d6b.css.map": "/static/css/main.4e0d3d6b.css.map",
+    "main.4fd78ad9.css.map": "/static/css/main.4fd78ad9.css.map",
     "main.2e673de7.js.map": "/static/js/main.2e673de7.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e0d3d6b.css",
+    "static/css/main.4fd78ad9.css",
     "static/js/main.2e673de7.js"
   ]
 }
