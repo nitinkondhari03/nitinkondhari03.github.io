@@ -32,7 +32,7 @@ const About = () => {
         </span>
       </Text>
       <Text fontWeight={'bold'}   color={"black"}
-            fontSize={"1.4Vmax"} w={'80%'} m="auto" textAlign={'left'}>
+            fontSize={"1.3Vmax"} w={'80%'} m="auto" textAlign={'left'}>
       <TypeAnimation
         sequence={[
           `Passionate about coding and eager to work with smart people in a challenging environment.Proficient in MongoDB, ExpressJS, ReactJS, HTML, CSS, JavaScript, NodeJS and Having exceptional interpersonal skills as well as the ability to produce interactions that organizations and people really care about. Love technology and try to use them smartly to make everyday tasks easier.`,
