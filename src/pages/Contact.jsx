@@ -54,7 +54,13 @@ const Contacts = () => {
         >
           <Box className="contact_cards">
             <Box className="icon">
+            <a
+              href="mailto:nitinkondhari85@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <AiOutlineMail />
+              </a>
             </Box>
             <Text className="contact_card_header">Email</Text>
             <a
@@ -101,14 +107,14 @@ const Contacts = () => {
             Send me a message
           </Text>
           <form
-            action="https://getform.io/f/4c7f4c3d-b837-48eb-a797-0c571063d3f4"
-            method="POST"
+   
           >
             <Input
               mt="5"
               name="name"
               placeholder="Your Full Name"
               color="black"
+              required
             />
 
             <Input
@@ -117,6 +123,7 @@ const Contacts = () => {
               name="email"
               placeholder="Your Email Adress"
               color="black"
+              required
             />
 
             <Textarea
@@ -124,9 +131,10 @@ const Contacts = () => {
               mt="10"
               placeholder="Enter your Message here"
               color="black"
+              required
             />
             <Button
-            
+              type="submit"
               mt="8"
               bg={"black"}
               _hover={{

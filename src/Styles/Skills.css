@@ -11,19 +11,22 @@
   align-content: center;
   border-top-left-radius: 12px;
   border-bottom-right-radius: 12px;
-
+  color: black;
 }
-
+.skills-card:hover{
+  border: solid 1px rgb(255, 255, 255);
+  background-color: black;
+  color: white;
+}
 .skills-card-img{
   font-size: 55px;
   margin: auto;
-  color: black;
+
 }
 
 .skills-card-name {
   font-weight: bold;
   margin-top: 10px;
-  color: black;
   font-size: 22px;
 }
 @media screen and (max-width: 1025px) {
