@@ -32,7 +32,7 @@ const Home = () => {
             delay: 0.1,
           }}
         >
-          Hi,My Name is
+          Hello,My name is 
         </motion.span>
         <motion.span
           {...options}
