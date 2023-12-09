@@ -17,8 +17,7 @@ const Navbar = () => {
   const [clicked, setClicked] = useState(false);
   
   let location = useLocation()
-  
-  console.log(location.hash)
+
   const handleClicked = () => {
     setClicked(!clicked);
   };
@@ -52,16 +51,16 @@ const Navbar = () => {
        {location.hash==="#home"? <a style={{color:"teal"}} class="nav-link home" href="#home" >
           <AiFillHome />
           HOME
-        </a>:<a style={{color:"black"}} class="nav-link home" href="#home" >
+        </a>:<a style={{color:"black"}} className="nav-link home" href="#home" >
           <AiFillHome />
           HOME
         </a>}
 
         {/* About Me */}
-      {location.hash==="#about"?<a style={{color:"teal"}} class="nav-link about" href="#about">
+      {location.hash==="#about"?<a style={{color:"teal"}} className="nav-link about" href="#about">
           <MdAccountCircle />
           ABOUT ME
-        </a>:<a style={{color:"black"}} class="nav-link about" href="#about">
+        </a>:<a style={{color:"black"}} className="nav-link about" href="#about">
           <MdAccountCircle />
           ABOUT ME
         </a>}  
@@ -78,35 +77,35 @@ const Navbar = () => {
         
 
         {/* Tech Stacks */}
-          {location.hash==="#skills"? <a class="nav-link skills" style={{color:"teal"}}  href="#skills">
+          {location.hash==="#skills"? <a className="nav-link skills" style={{color:"teal"}}  href="#skills">
           <AiFillStar />
           SKILLS
-        </a>: <a class="nav-link skills" style={{color:"black"}}  href="#skills">
+        </a>: <a className="nav-link skills" style={{color:"black"}}  href="#skills">
           <AiFillStar />
           SKILLS
         </a>}
        
 
         {/* Projects */}
-        {location.hash==="#projects"?<a style={{color:"teal"}} class="nav-link projects" href="#projects">
+        {location.hash==="#projects"?<a style={{color:"teal"}} className="nav-link projects" href="#projects">
           <AiFillProject />
           PROJECTS
-        </a>:<a class="nav-link projects" style={{color:"black"}} href="#projects">
+        </a>:<a className="nav-link projects" style={{color:"black"}} href="#projects">
           <AiFillProject />
           PROJECTS
         </a>}
         
 
         {/* Contact */}
-        {location.hash==="#contact"?<a style={{color:"teal"}} class="nav-link contact" href="#contact">
+        {location.hash==="#contact"?<a style={{color:"teal"}} className="nav-link contact" href="#contact">
           <AiFillPhone />
           CONTACT
-        </a>:<a class="nav-link contact" style={{color:"black"}} href="#contact">
+        </a>:<a className="nav-link contact" style={{color:"black"}} href="#contact">
           <AiFillPhone />
           CONTACT
         </a>}
         
-        <a d="resume-link-1" style={{color:"black",_hover:"teal"}} class="nav-link resume" href="https://drive.google.com/uc?export=download&id=1MIKbQePBvVrZoP3Wk-bWH0oA5oY_FyVI"
+        <a d="resume-link-1" style={{color:"black",_hover:"teal"}} className="nav-link resume" href="https://drive.google.com/uc?export=download&id=1MIKbQePBvVrZoP3Wk-bWH0oA5oY_FyVI"
          onClick={handleClick}
         >
         <HiDocumentText   id="resume-button-1"/>RESUME

@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import {
   Box,
   SimpleGrid,
@@ -11,22 +11,50 @@ import { AiOutlinePhone } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 import { AiOutlineGithub } from "react-icons/ai";
-import "../styles/contact.css"
+import "../styles/contact.css";
 
 const Contacts = () => {
+  const [name,setName]=useState("");
+  const [email,setEmail]=useState("");
+  const [message,setMessage]=useState("")
+  let handleSubmit = async (e) => {
+    e.preventDefault();
+    let obj={
+      name:name,
+      email:email,
+      message:message
+    }
+ 
+    try {
+      let res = await fetch("https://cute-rose-gorilla-sock.cyclic.app/api/v1/portfolio", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(obj),
+      });
+     
+      let resJson = await res.json();
+     alert(resJson.message)
+    
+    } catch (err) {
+      console.log("Can't send message same error");
+    }
+    setName("")
+    setEmail("")
+    setMessage("")
+  };
   return (
     <Box
-   
       style={{
         width: "100%",
         backgroundColor: "white",
         fontFamily: "monospace",
         fontSize: "15px",
-        color:'black'
+        color: "black",
       }}
       padding={{ md: "30px", base: "15px" }}
       id="contact"
-      
     >
       <Text
         color="black"
@@ -54,12 +82,12 @@ const Contacts = () => {
         >
           <Box className="contact_cards">
             <Box className="icon">
-            <a
-              href="mailto:nitinkondhari85@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <AiOutlineMail />
+              <a
+                href="mailto:nitinkondhari85@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AiOutlineMail />
               </a>
             </Box>
             <Text className="contact_card_header">Email</Text>
@@ -68,7 +96,9 @@ const Contacts = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <Text className="content"  id="contact-email">nitinkondhari85@gmail.com</Text>
+              <Text className="content" id="contact-email">
+                nitinkondhari85@gmail.com
+              </Text>
             </a>
           </Box>
           <Box className="contact_cards">
@@ -76,26 +106,28 @@ const Contacts = () => {
               <AiOutlinePhone />
             </Box>
             <Text className="contact_card_header">Contact Number</Text>
-            <Text className="content"  id="contact-phone">+91 9145160400</Text>
+            <Text className="content" id="contact-phone">
+              +91 9145160400
+            </Text>
           </Box>
           <Box className="contact_cards">
             <Text className="contact_card_header-social">Social Media</Text>
             <Box className="icon">
               <a
-              id="contact-linkedin"
+                id="contact-linkedin"
                 href="https://www.linkedin.com/in/nitinkondhari/"
                 target="_blank"
                 rel="noreferrer"
-                style={{color:"black"}}
+                style={{ color: "black" }}
               >
                 <BsLinkedin />
               </a>
               <a
-              id="contact-github"
+                id="contact-github"
                 href="https://github.com/nitinkondhari03"
                 target="_blank"
                 rel="noreferrer"
-                style={{color:"black"}}
+                style={{ color: "black" }}
               >
                 <AiOutlineGithub />
               </a>
@@ -106,10 +138,10 @@ const Contacts = () => {
           <Text color={"black"} fontSize="25px">
             Send me a message
           </Text>
-          <form
-   
-          >
+          <form onSubmit={(e)=>handleSubmit(e)}>
             <Input
+             onChange={(e)=>setName(e.target.value)}
+             value={name}
               mt="5"
               name="name"
               placeholder="Your Full Name"
@@ -118,6 +150,8 @@ const Contacts = () => {
             />
 
             <Input
+             onChange={(e) => setEmail(e.target.value)}
+             value={email}
               mt="10"
               type="email"
               name="email"
@@ -128,6 +162,8 @@ const Contacts = () => {
 
             <Textarea
               name="message"
+              onChange={(e) => setMessage(e.target.value)}
+              value={message}
               mt="10"
               placeholder="Enter your Message here"
               color="black"
@@ -141,7 +177,6 @@ const Contacts = () => {
                 bg: "rgb(11,25,46)",
               }}
               fontSize={"20px"}
-            
               color="white"
             >
               Submit

@@ -130,7 +130,7 @@ const Projects = () => {
       <div>
        
         {/* Peoject 1 */}
-        <div class="project-card">
+        <div className="project-card">
           
           <div>
             <Carousel autoPlay infiniteLoop>
@@ -146,9 +146,9 @@ const Projects = () => {
           </div>
           
           <div className="content">
-            <h1 class="project-title">Ecommerce.com</h1>
+            <h1 className="project-title">Ecommerce.com</h1>
 
-            <p class="project-description">
+            <p className="project-description">
             E-commerce is a an Indian online store that specializes in selling a wide range of designer mobile phone cases, laptop sleeves, and other tech accessories
             </p>
      
@@ -160,7 +160,7 @@ const Projects = () => {
         </Box>
         <Box width={{base:"20%",sm:"20%", md: "17%", lg: "15%",xl:"20%","2xl":"15%"}} style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <SiRedux style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text class="project-tech-stack">Redux</Text>
+          <Text className="project-tech-stack">Redux</Text>
         </Box>
         <Box width={{base:"20%",sm:"20%",md: "17%", lg: "15%",xl:"20%","2xl":"15%"}} style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <RiCss3Fill style={{margin:'auto',paddingTop:'2px'}}/>
@@ -190,7 +190,7 @@ const Projects = () => {
 
             <div>
               <a
-              class="project-github-link"
+              className="project-github-link"
                 href="https://github.com/nitinkondhari03/ECOMMERCE"
                 target="_blank"
                 rel="noreferrer"
@@ -199,7 +199,7 @@ const Projects = () => {
                 GitHub
               </a>
               <a
-              class="project-deployed-link"
+              className="project-deployed-link"
                 href="https://ecommerce-ruby-ten.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -212,7 +212,7 @@ const Projects = () => {
         </div>
 
         {/* Peoject 2 */}
-        <div class="project-card">
+        <div className="project-card">
           
           <div>
             <Carousel autoPlay infiniteLoop>
@@ -228,9 +228,9 @@ const Projects = () => {
           </div>
           
           <div className="content">
-            <h1 class="project-title">GadgetGalaxy.com</h1>
+            <h1 className="project-title">GadgetGalaxy.com</h1>
 
-            <p class="project-description">
+            <p className="project-description">
             An E-Commerce website for designer mobile phone cases, laptop sleeves, and other tech accessories
             </p>
 
@@ -242,7 +242,7 @@ const Projects = () => {
         </Box>
         <Box width={{base:"20%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{ border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <SiRedux style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text class="project-tech-stack">Redux</Text>
+          <Text className="project-tech-stack">Redux</Text>
         </Box>
         <Box width={{base:"18%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <RiCss3Fill style={{margin:'auto',paddingTop:'2px'}}/>
@@ -277,7 +277,7 @@ const Projects = () => {
 
             <div>
               <a
-              class="project-github-link"
+              className="project-github-link"
                 href="https://github.com/uzairansari11/GadgetGalaxy"
                 target="_blank"
                 rel="noreferrer"
@@ -286,7 +286,7 @@ const Projects = () => {
                 GitHub
               </a>
               <a
-              class="project-deployed-link"
+              className="project-deployed-link"
                 href="https://gadgetgalaxy.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -299,7 +299,7 @@ const Projects = () => {
         </div>
 
         {/* Peoject 3 */}
-        <div class="project-card">
+        <div className="project-card">
           {/* Images */}
           <div>
             <Carousel autoPlay infiniteLoop>
@@ -310,9 +310,9 @@ const Projects = () => {
           </div>
           {/* Content */}
           <div className="content">
-            <h1 class="project-title">Shopclues.com- Clone</h1>
+            <h1 className="project-title">Shopclues.com- Clone</h1>
 
-            <p class="project-description">
+            <p className="project-description">
             Oasis is a clone of website called Shopclues.com. Which is an e-commerce website selling variety of products. My area of Responsibility was All Products and Single Product page.
             </p>
 
@@ -320,19 +320,19 @@ const Projects = () => {
             <div>
             <Box width={{base:"20%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <FaReact style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text class="project-tech-stack">React</Text>
+          <Text className="project-tech-stack">React</Text>
         </Box>
         <Box width={{base:"20%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{ border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <SiRedux style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text class="project-tech-stack">Redux</Text>
+          <Text className="project-tech-stack">Redux</Text>
         </Box>
         <Box width={{base:"18%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{ border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <RiCss3Fill style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text class="project-tech-stack">CSS</Text>
+          <Text className="project-tech-stack">CSS</Text>
         </Box>
         <Box width={{base:"29%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <SiChakraui style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text class="project-tech-stack">ChakraUI</Text>
+          <Text className="project-tech-stack">ChakraUI</Text>
         </Box>
             </div>
 
@@ -341,7 +341,7 @@ const Projects = () => {
 
             <div>
               <a
-              class="project-github-link"
+              className="project-github-link"
                 href="https://github.com/DeshmukhMandar3/Oasis"
                 target="_blank"
                 rel="noreferrer"
@@ -350,7 +350,7 @@ const Projects = () => {
                 GitHub
               </a>
               <a
-              class="project-deployed-link"
+              className="project-deployed-link"
                 href="https://superb-meerkat-576c59.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -363,7 +363,7 @@ const Projects = () => {
         </div>
 
         {/* Project 4 */}
-        <div class="project-card">
+        <div className="project-card">
           {/* Images */}
           <div>
             <Carousel autoPlay infiniteLoop>
@@ -379,9 +379,9 @@ const Projects = () => {
           </div>
           {/* Content */}
           <div className="content">
-            <h1 class="project-title">Reliancedigital.com-Clone</h1>
+            <h1 className="project-title">Reliancedigital.com-Clone</h1>
 
-            <p class="project-description">
+            <p className="project-description">
             This is a clone of Reliancedigital website. In this website user can login and place order. Admin can access the products and add the products to the database
             </p>
 
@@ -389,20 +389,20 @@ const Projects = () => {
             <div>
             <Box width={{base:"20%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <FaReact style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text class="project-tech-stack">React</Text>
+          <Text className="project-tech-stack">React</Text>
         </Box>
         <Box width={{base:"20%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}   style={{ border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <SiRedux style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text class="project-tech-stack">Redux</Text>
+          <Text className="project-tech-stack">Redux</Text>
         </Box>
         
         <Box width={{base:"18%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{ border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <RiCss3Fill style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text class="project-tech-stack">CSS</Text>
+          <Text className="project-tech-stack">CSS</Text>
         </Box>
         <Box width={{base:"29%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <SiChakraui style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text class="project-tech-stack">ChakraUI</Text>
+          <Text className="project-tech-stack">ChakraUI</Text>
         </Box>
             </div>
             
@@ -414,7 +414,7 @@ const Projects = () => {
 
             <div>
               <a
-              class="project-github-link"
+              className="project-github-link"
                 href="https://github.com/Rajesh-P-07/Reliancedigital.in"
                 target="_blank"
                 rel="noreferrer"
@@ -423,7 +423,7 @@ const Projects = () => {
                 GitHub
               </a>
               <a
-              class="project-deployed-link"
+              className="project-deployed-link"
                 href="https://statuesque-griffin-d59c36.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
