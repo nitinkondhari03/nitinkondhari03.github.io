@@ -42,18 +42,19 @@
     align-items: center;
     border-top-left-radius: 12px;
     border-bottom-right-radius: 12px;
+    color: black;
   
   }
+
   .skills-card-img{
     font-size: 40px;
     margin: auto;
-    color: black;
+   
   }
   
   .skills-card-name {
     font-weight: bold;
     margin-top: 10px;
-    color: black;
     font-size: 18px;
   }
 }
