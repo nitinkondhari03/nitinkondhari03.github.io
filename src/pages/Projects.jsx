@@ -108,7 +108,7 @@ const Projects = () => {
   const project_four = [reliancedigital1,reliancedigital2,reliancedigital3,reliancedigital4,reliancedigital5,reliancedigital6];
 
   return (
-    <section  id="projects" style={{ fontFamily: "monospace"}}>
+    <section  id="projects" style={{ fontFamily: "Hedvig Letters Serif"}}>
        <Text
         color="black"
         fontSize={{ md: "35px", base: "28px" }}

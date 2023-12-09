@@ -23,7 +23,7 @@ const Home = () => {
   };
 
   return (
-    <section id="home" style={{ fontFamily: "monospace"}}>
+    <section id="home" style={{ fontFamily: "Hedvig Letters Serif"}}>
       {/* Info */}
       <div>
         <motion.span

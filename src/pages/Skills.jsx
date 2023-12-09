@@ -24,7 +24,7 @@ const Skills = () => {
       style={{
         width: "100%",
         backgroundColor: "white",
-        fontFamily: "monospace",
+        fontFamily: "Hedvig Letters Serif",
         fontSize: "15px",
       }}
       padding={{ md: "30px", base: "15px" }}
@@ -64,6 +64,7 @@ const Skills = () => {
         color={"rgb(205,215,246)"}
         paddingLeft={{base:"30px", lg: "140px",md: "25px", sm: "20px" }}
         marginTop="0px"
+        fontFamily={"monospace"}
       >
         <Box   className="skills-card">
           <AiFillHtml5  className="skills-card-img"  />
@@ -124,6 +125,7 @@ const Skills = () => {
        color={"rgb(205,215,246)"}
        paddingLeft={{base:"30px", lg: "140px",md: "25px", sm: "20px" }}
         marginTop={"10px"}
+        fontFamily={"monospace"}
       >
         <Box   className="skills-card">
           <DiGit  className="skills-card-img" />

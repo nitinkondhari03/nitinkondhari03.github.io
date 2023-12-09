@@ -26,7 +26,7 @@ function GithubStats() {
 	};
 
 	return (
-		<div  id="github-stats" className="github-main" style={{ fontFamily: "monospace"}}>
+		<div  id="github-stats" className="github-main" style={{ fontFamily: "Hedvig Letters Serif"}}>
 		<Text
         color="black"
         fontSize={{ md: "35px", base: "28px" }}

@@ -20,7 +20,7 @@ const Contacts = () => {
       style={{
         width: "100%",
         backgroundColor: "white",
-        fontFamily: "monospace",
+        fontFamily: "Hedvig Letters Serif",
         fontSize: "15px",
         color:'black'
       }}
