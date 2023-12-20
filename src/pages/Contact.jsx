@@ -107,7 +107,7 @@ const Contacts = () => {
             </Box>
             <Text className="contact_card_header">Contact Number</Text>
             <Text className="content" id="contact-phone">
-              +91 9145160400
+              +91 8850841724
             </Text>
           </Box>
           <Box className="contact_cards">
