@@ -11,6 +11,7 @@ import {
   SiMongodb,
   SiChakraui,
   SiStorybook,
+  SiTailwindcss,
 } from "react-icons/si";
 import { SiCypress } from "react-icons/si";
 import { TbBrandNextjs, TbBulb } from "react-icons/tb";
@@ -87,12 +88,16 @@ const Skills = () => {
           <Text  className="skills-card-name">Redux</Text>
         </Box>
         <Box   className="skills-card">
-          <SiTypescript  className="skills-card-img" />
-          <Text  className="skills-card-name">TypeScript</Text>
+          <SiTailwindcss  className="skills-card-img" />
+          <Text  className="skills-card-name">TailwinCSS</Text>
         </Box>
         <Box   className="skills-card">
           <SiChakraui  className="skills-card-img" />
           <Text  className="skills-card-name">ChakraUI</Text>
+        </Box>
+        <Box   className="skills-card">
+          <SiTypescript  className="skills-card-img" />
+          <Text  className="skills-card-name">TypeScript</Text>
         </Box>
         <Box   className="skills-card">
           <TbBrandNextjs  className="skills-card-img" />
@@ -105,6 +110,10 @@ const Skills = () => {
         <Box   className="skills-card">
           <SiExpress  className="skills-card-img" />
           <Text  className="skills-card-name">ExpressJS</Text>
+        </Box>
+        <Box   className="skills-card">
+          <SiMongodb  className="skills-card-img" />
+          <Text  className="skills-card-name">mongoDB</Text>
         </Box>
       </SimpleGrid>
 
