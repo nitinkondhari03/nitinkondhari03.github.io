@@ -12,6 +12,7 @@ import {
   SiChakraui,
   SiStorybook,
   SiTailwindcss,
+  SiPostman,
 } from "react-icons/si";
 import { SiCypress } from "react-icons/si";
 import { TbBrandNextjs, TbBulb } from "react-icons/tb";
@@ -150,7 +151,11 @@ const Skills = () => {
         </Box>
         <Box   className="skills-card">
           <SiMongodb  className="skills-card-img" />
-          <Text  className="skills-card-name">MongoDB</Text>
+          <Text  className="skills-card-name">Mongodb Compass</Text>
+        </Box>
+        <Box   className="skills-card">
+          <SiMongodb  className="skills-card-img" />
+          <Text  className="skills-card-name">MongoDB Shell</Text>
         </Box>
         <Box   className="skills-card">
           <SiCypress  className="skills-card-img" />
@@ -159,6 +164,10 @@ const Skills = () => {
         <Box   className="skills-card">
           <DiNpm  className="skills-card-img" />
           <Text  className="skills-card-name">NPM</Text>
+        </Box>
+        <Box   className="skills-card">
+          <SiPostman  className="skills-card-img" />
+          <Text  className="skills-card-name">Postman</Text>
         </Box>
         <Box   className="skills-card">
           <SiStorybook  className="skills-card-img" />
