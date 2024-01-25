@@ -11,6 +11,7 @@ import {
   SiMongodb,
   SiChakraui,
   SiStorybook,
+  SiBootstrap,
   SiTailwindcss,
   SiPostman,
 } from "react-icons/si";
@@ -89,20 +90,24 @@ const Skills = () => {
           <Text  className="skills-card-name">Redux</Text>
         </Box>
         <Box   className="skills-card">
-          <SiTailwindcss  className="skills-card-img" />
-          <Text  className="skills-card-name">TailwinCSS</Text>
-        </Box>
-        <Box   className="skills-card">
-          <SiChakraui  className="skills-card-img" />
-          <Text  className="skills-card-name">ChakraUI</Text>
-        </Box>
-        <Box   className="skills-card">
           <SiTypescript  className="skills-card-img" />
           <Text  className="skills-card-name">TypeScript</Text>
         </Box>
         <Box   className="skills-card">
           <TbBrandNextjs  className="skills-card-img" />
           <Text  className="skills-card-name">NextJS</Text>
+        </Box>
+        <Box   className="skills-card">
+          <SiBootstrap  className="skills-card-img" />
+          <Text  className="skills-card-name">Bootstrap</Text>
+        </Box>
+        <Box   className="skills-card">
+          <SiTailwindcss  className="skills-card-img" />
+          <Text  className="skills-card-name">TailwinCSS</Text>
+        </Box>
+        <Box   className="skills-card">
+          <SiChakraui  className="skills-card-img" />
+          <Text  className="skills-card-name">ChakraUI</Text>
         </Box>
         <Box   className="skills-card">
           <IoLogoNodejs  className="skills-card-img" />
