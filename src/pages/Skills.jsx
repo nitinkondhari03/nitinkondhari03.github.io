@@ -162,10 +162,10 @@ const Skills = () => {
           <SiMongodb  className="skills-card-img" />
           <Text  className="skills-card-name">MongoDB Shell</Text>
         </Box>
-        <Box   className="skills-card">
+        {/* <Box   className="skills-card">
           <SiCypress  className="skills-card-img" />
           <Text  className="skills-card-name">Cypress</Text>
-        </Box>
+        </Box> */}
         <Box   className="skills-card">
           <DiNpm  className="skills-card-img" />
           <Text  className="skills-card-name">NPM</Text>
@@ -174,10 +174,10 @@ const Skills = () => {
           <SiPostman  className="skills-card-img" />
           <Text  className="skills-card-name">Postman</Text>
         </Box>
-        <Box   className="skills-card">
+        {/* <Box   className="skills-card">
           <SiStorybook  className="skills-card-img" />
           <Text  className="skills-card-name">Storybook</Text>
-        </Box>
+        </Box> */}
       </SimpleGrid>
     </Box>
   );

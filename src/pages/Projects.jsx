@@ -287,7 +287,7 @@ const Projects = () => {
               </a>
               <a
               className="project-deployed-link"
-                href="https://gadgetgalaxy.netlify.app/"
+                href="https://gadget-galaxy-ivory.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
