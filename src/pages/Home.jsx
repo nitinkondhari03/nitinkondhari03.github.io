@@ -59,7 +59,7 @@ const Home = () => {
         {/* Social Media & Resume Download Button */}
         <div>
           {/* Resume Download Button */}
-          <a d="resume-link-2"  href="https://drive.google.com/uc?export=download&id=1MIKbQePBvVrZoP3Wk-bWH0oA5oY_FyVI"
+          <a id="resume-link-2"  href="https://drive.google.com/uc?export=download&id=1MIKbQePBvVrZoP3Wk-bWH0oA5oY_FyVI"
         onClick={handleClick}>
             <motion.button
             id="resume-button-2"
@@ -127,7 +127,7 @@ const Home = () => {
           }}
           whileHover={{ scale: [null, 1.2, 1.1] }}
           src={nitin_kondhari}
-          alt="Abhijit Biswas"
+          alt="Nitin Kondhari"
           loading="lazy"
         />
       </div>

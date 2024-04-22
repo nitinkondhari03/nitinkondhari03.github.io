@@ -108,6 +108,7 @@ function GithubStats() {
 					/>
 				</div>
 			</div>
+			<div id="github-section" style={{height:"30px"}}></div>
 		</div>
 	);
 }

@@ -434,6 +434,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        <div id="project-section" style={{height:"30px",visibility:"hidden"}}></div>
       </div>
     </section>
   );

@@ -57,19 +57,19 @@ const Navbar = () => {
         </a>}
 
         {/* About Me */}
-      {location.hash==="#about"?<a style={{color:"teal"}} className="nav-link about" href="#about">
+      {location.hash==="#about"?<a style={{color:"teal"}} className="nav-link about" href="#resume-link-2">
           <MdAccountCircle />
           ABOUT ME
-        </a>:<a style={{color:"black"}} className="nav-link about" href="#about">
+        </a>:<a style={{color:"black"}} className="nav-link about" href="#resume-link-2">
           <MdAccountCircle />
           ABOUT ME
         </a>}  
 
         {/* Github Stats */}
-        {location.hash==="#github-stats"?<a style={{color:"teal"}} href="#github-stats">
+        {location.hash==="#github-stats"?<a style={{color:"teal"}} href="#about-section">
           <AiFillGithub />
           GITHUB STATS
-        </a>:<a href="#github-stats" style={{color:"black"}}>
+        </a>:<a href="#about-section" style={{color:"black"}}>
           <AiFillGithub />
           GITHUB STATS
         </a>}
@@ -77,10 +77,10 @@ const Navbar = () => {
         
 
         {/* Tech Stacks */}
-          {location.hash==="#skills"? <a className="nav-link skills" style={{color:"teal"}}  href="#skills">
+          {location.hash==="#skills"? <a className="nav-link skills" style={{color:"teal"}}  href="#github-section">
           <AiFillStar />
           SKILLS
-        </a>: <a className="nav-link skills" style={{color:"black"}}  href="#skills">
+        </a>: <a className="nav-link skills" style={{color:"black"}}  href="#github-section">
           <AiFillStar />
           SKILLS
         </a>}
@@ -97,10 +97,10 @@ const Navbar = () => {
         
 
         {/* Contact */}
-        {location.hash==="#contact"?<a style={{color:"teal"}} className="nav-link contact" href="#contact">
+        {location.hash==="#contact"?<a style={{color:"teal"}} className="nav-link contact" href="#project-section">
           <AiFillPhone />
           CONTACT
-        </a>:<a className="nav-link contact" style={{color:"black"}} href="#contact">
+        </a>:<a className="nav-link contact" style={{color:"black"}} href="#project-section">
           <AiFillPhone />
           CONTACT
         </a>}

@@ -31,7 +31,7 @@ const About = () => {
           About Me
         </span>
       </Text>
-      <Text fontWeight={'400'}   color={"black"}
+      <Text id='about-section' fontWeight={'400'}   color={"black"}
       fontFamily={"Hedvig Letters Serif"}
             fontSize={"1.4Vmax"} w={'80%'} m="auto" textAlign={'left'}>
       <TypeAnimation

@@ -3,7 +3,9 @@ import React from "react";
 import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 import { RiCss3Fill, RiTeamFill } from "react-icons/ri";
 import { IoLogoJavascript, IoLogoNodejs } from "react-icons/io";
-import { FaReact, FaPeopleArrows } from "react-icons/fa";
+import { FaReact} from "react-icons/fa";
+
+
 import {
   SiRedux,
   SiTypescript,
@@ -14,16 +16,16 @@ import {
   SiBootstrap,
   SiTailwindcss,
   SiPostman,
+  SiPostgresql,
 } from "react-icons/si";
-import { SiCypress } from "react-icons/si";
 import { TbBrandNextjs, TbBulb } from "react-icons/tb";
 import { DiGit, DiNpm, DiVisualstudio } from "react-icons/di";
 import "../styles/skills.css";
 
 const Skills = () => {
   return (
-    <Box
-    id="skills"
+    <section
+      id="skills"
       style={{
         width: "100%",
         backgroundColor: "white",
@@ -31,7 +33,6 @@ const Skills = () => {
         fontSize: "15px",
       }}
       padding={{ md: "30px", base: "15px" }}
-      
     >
       <Text
         color="black"
@@ -65,61 +66,61 @@ const Skills = () => {
         columns={{ base: 2, sm: 3, md: 4, lg: 4 }}
         spacing={{ base: 5, md: 10 }}
         color={"rgb(205,215,246)"}
-        paddingLeft={{base:"30px", lg: "140px",md: "25px", sm: "20px" }}
+        paddingLeft={{ base: "30px", lg: "140px", md: "25px", sm: "20px" }}
         marginTop="0px"
         fontFamily={"monospace"}
       >
-        <Box   className="skills-card">
-          <AiFillHtml5  className="skills-card-img"  />
-          <Text  className="skills-card-name">HTML</Text>
+        <Box className="skills-card">
+          <AiFillHtml5 className="skills-card-img" />
+          <Text className="skills-card-name">HTML</Text>
         </Box>
-        <Box   className="skills-card">
-          <RiCss3Fill  className="skills-card-img" />
-          <Text  className="skills-card-name">CSS</Text>
+        <Box className="skills-card">
+          <RiCss3Fill className="skills-card-img" />
+          <Text className="skills-card-name">CSS</Text>
         </Box>
-        <Box   className="skills-card">
-          <IoLogoJavascript  className="skills-card-img" />
-          <Text  className="skills-card-name">JavaScript</Text>
+        <Box className="skills-card">
+          <IoLogoJavascript className="skills-card-img" />
+          <Text className="skills-card-name">JavaScript</Text>
         </Box>
-        <Box   className="skills-card">
-          <FaReact  className="skills-card-img" />
-          <Text  className="skills-card-name">React</Text>
+        <Box className="skills-card">
+          <FaReact className="skills-card-img" />
+          <Text className="skills-card-name">React</Text>
         </Box>
-        <Box   className="skills-card">
-          <SiRedux  className="skills-card-img" />
-          <Text  className="skills-card-name">Redux</Text>
+        <Box className="skills-card">
+          <SiRedux className="skills-card-img" />
+          <Text className="skills-card-name">Redux</Text>
         </Box>
-        <Box   className="skills-card">
-          <SiTypescript  className="skills-card-img" />
-          <Text  className="skills-card-name">TypeScript</Text>
+        <Box className="skills-card">
+          <SiTypescript className="skills-card-img" />
+          <Text className="skills-card-name">TypeScript</Text>
         </Box>
-        <Box   className="skills-card">
-          <TbBrandNextjs  className="skills-card-img" />
-          <Text  className="skills-card-name">NextJS</Text>
+        <Box className="skills-card">
+          <TbBrandNextjs className="skills-card-img" />
+          <Text className="skills-card-name">NextJS</Text>
         </Box>
-        <Box   className="skills-card">
-          <SiBootstrap  className="skills-card-img" />
-          <Text  className="skills-card-name">Bootstrap</Text>
+        <Box className="skills-card">
+          <SiBootstrap className="skills-card-img" />
+          <Text className="skills-card-name">Bootstrap</Text>
         </Box>
-        <Box   className="skills-card">
-          <SiTailwindcss  className="skills-card-img" />
-          <Text  className="skills-card-name">TailwinCSS</Text>
+        <Box className="skills-card">
+          <SiTailwindcss className="skills-card-img" />
+          <Text className="skills-card-name">TailwinCSS</Text>
         </Box>
-        <Box   className="skills-card">
-          <SiChakraui  className="skills-card-img" />
-          <Text  className="skills-card-name">ChakraUI</Text>
+        <Box className="skills-card">
+          <SiChakraui className="skills-card-img" />
+          <Text className="skills-card-name">ChakraUI</Text>
         </Box>
-        <Box   className="skills-card">
-          <IoLogoNodejs  className="skills-card-img" />
-          <Text  className="skills-card-name">NodeJS</Text>
+        <Box className="skills-card">
+          <IoLogoNodejs className="skills-card-img" />
+          <Text className="skills-card-name">NodeJS</Text>
         </Box>
-        <Box   className="skills-card">
-          <SiExpress  className="skills-card-img" />
-          <Text  className="skills-card-name">ExpressJS</Text>
+        <Box className="skills-card">
+          <SiExpress className="skills-card-img" />
+          <Text className="skills-card-name">ExpressJS</Text>
         </Box>
-        <Box   className="skills-card">
-          <SiMongodb  className="skills-card-img" />
-          <Text  className="skills-card-name">mongoDB</Text>
+        <Box className="skills-card">
+          <SiMongodb className="skills-card-img" />
+          <Text className="skills-card-name">mongoDB</Text>
         </Box>
       </SimpleGrid>
 
@@ -135,51 +136,39 @@ const Skills = () => {
         Tools
       </Text>
       <SimpleGrid
-       columns={{ base: 2, sm: 3, md: 4, lg: 4 }}
-       spacing={{ base: 5, md: 10 }}
-       color={"rgb(205,215,246)"}
-       paddingLeft={{base:"30px", lg: "140px",md: "25px", sm: "20px" }}
+        columns={{ base: 2, sm: 3, md: 4, lg: 4 }}
+        spacing={{ base: 5, md: 10 }}
+        color={"rgb(205,215,246)"}
+        paddingLeft={{ base: "30px", lg: "140px", md: "25px", sm: "20px" }}
         marginTop={"10px"}
         fontFamily={"monospace"}
       >
-        <Box   className="skills-card">
-          <DiGit  className="skills-card-img" />
-          <Text  className="skills-card-name">Git</Text>
+        <Box className="skills-card">
+          <DiGit className="skills-card-img" />
+          <Text className="skills-card-name">Git</Text>
         </Box>
-        <Box   className="skills-card">
-          <AiFillGithub  className="skills-card-img" />
-          <Text  className="skills-card-name">GitHub</Text>
+        <Box className="skills-card">
+          <AiFillGithub className="skills-card-img" />
+          <Text className="skills-card-name">GitHub</Text>
         </Box>
-        <Box   className="skills-card">
-          <DiVisualstudio  className="skills-card-img" />
-          <Text  className="skills-card-name">VS code</Text>
+        <Box className="skills-card">
+          <DiVisualstudio className="skills-card-img" />
+          <Text className="skills-card-name">VS code</Text>
         </Box>
-        <Box   className="skills-card">
-          <SiMongodb  className="skills-card-img" />
-          <Text  className="skills-card-name">Mongodb Compass</Text>
+        <Box className="skills-card">
+          <SiMongodb className="skills-card-img" />
+          <Text className="skills-card-name">Mongodb Compass</Text>
         </Box>
-        <Box   className="skills-card">
-          <SiMongodb  className="skills-card-img" />
-          <Text  className="skills-card-name">MongoDB Shell</Text>
+        <Box className="skills-card">
+          <DiNpm className="skills-card-img" />
+          <Text className="skills-card-name">NPM</Text>
         </Box>
-        {/* <Box   className="skills-card">
-          <SiCypress  className="skills-card-img" />
-          <Text  className="skills-card-name">Cypress</Text>
-        </Box> */}
-        <Box   className="skills-card">
-          <DiNpm  className="skills-card-img" />
-          <Text  className="skills-card-name">NPM</Text>
+        <Box className="skills-card">
+          <SiPostman className="skills-card-img" />
+          <Text className="skills-card-name">Postman</Text>
         </Box>
-        <Box   className="skills-card">
-          <SiPostman  className="skills-card-img" />
-          <Text  className="skills-card-name">Postman</Text>
-        </Box>
-        {/* <Box   className="skills-card">
-          <SiStorybook  className="skills-card-img" />
-          <Text  className="skills-card-name">Storybook</Text>
-        </Box> */}
       </SimpleGrid>
-    </Box>
+    </section>
   );
 };
 
