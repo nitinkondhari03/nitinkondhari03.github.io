@@ -26,7 +26,7 @@ function GithubStats() {
 	};
 
 	return (
-		<div  id="github-stats" className="github-main" style={{ fontFamily: "Hedvig Letters Serif"}}>
+		<div  id="github-stats" className="github-main" style={{ fontFamily: "Hedvig Letters Serif",padding:"45px"}}>
 		<Text
         color="black"
         fontSize={{ md: "35px", base: "28px" }}

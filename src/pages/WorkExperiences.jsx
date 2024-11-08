@@ -50,22 +50,23 @@ const WorkExperiences = () => {
       >
         <Box
           width={"auto"}
-          padding={"20px 100px"}
+          padding={{md:"20px 40px",base:"20px 20px"}}
           boxShadow={"lg"}
+          border={"1px solid black"}
           _hover={{ boxShadow: "xl" }}
         >
           <Flex
             justifyContent={"left"}
             gap={"2"}
             alignItems="center"
-            fontSize={{ md: "26px", base: "22px" }}
+            fontSize={{ md: "26px",sm:"26px", base: "12px" }}
             margin={"auto"}
           >
             <Box>
               <MdWork />
             </Box>
             <Box>
-              <Text fontSize={{ md: "26px", base: "22px" }}>
+              <Text fontSize={{ md: "26px",sm:"22px", base: "12px" }}>
                 Intern Web Developer
               </Text>
             </Box>
@@ -75,7 +76,7 @@ const WorkExperiences = () => {
               justifyContent={"left"}
               gap={"2"}
               alignItems="center"
-              fontSize={{ md: "16px", base: "14px" }}
+              fontSize={{ md: "16px",sm:"16px", base: "8px" }}
               marginTop={"5px"}
             >
               <Box>
@@ -85,7 +86,7 @@ const WorkExperiences = () => {
                 <Text
                   fontWeight={"medium"}
                   paddingRight={"60px"}
-                  fontSize={{ md: "20px", base: "18px" }}
+                  fontSize={{ md: "16px",sm:"16px", base: "8px" }}
                 >
                   REVOGUE RETAIL PVT LTD
                 </Text>
@@ -95,14 +96,14 @@ const WorkExperiences = () => {
               justifyContent={"left"}
               gap={"2"}
               alignItems="center"
-              fontSize={{ md: "16px", base: "14px" }}
+              fontSize={{ md: "16px",sm:"16px", base: "8px" }}
               marginTop={"5px"}
             >
               <Box>
                 <MdLocationPin />
               </Box>
               <Box>
-                <Text fontSize={{ md: "20px", base: "18px" }}>
+                <Text fontSize={{ md: "16px",sm:"16px", base: "8px" }}>
                   Belapur, Navi Mumbai, Maharashtra -400614
                 </Text>
               </Box>
@@ -111,7 +112,7 @@ const WorkExperiences = () => {
               justifyContent={"left"}
               gap={"2"}
               alignItems="center"
-              fontSize={{ md: "16px", base: "14px" }}
+              fontSize={{ md: "16px",sm:"16px", base: "8px" }}
               marginTop={"5px"}
             >
               <Box>
@@ -120,7 +121,7 @@ const WorkExperiences = () => {
               <Box>
                 <Text
                   paddingRight={"8px"}
-                  fontSize={{ md: "20px", base: "18px" }}
+                  fontSize={{ md: "16px",sm:"16px", base: "8px" }}
                 >
                   Remote (Work from Home)
                 </Text>
@@ -130,7 +131,7 @@ const WorkExperiences = () => {
               justifyContent={"left"}
               gap={"2"}
               alignItems="center"
-              fontSize={{ md: "16px", base: "14px" }}
+              fontSize={{ md: "16px",sm:"16px", base: "8px" }}
               marginTop={"5px"}
             >
               <Box>
@@ -139,7 +140,7 @@ const WorkExperiences = () => {
               <Box>
                 <Text
                   paddingRight={"8px"}
-                  fontSize={{ md: "20px", base: "18px" }}
+                  fontSize={{ md: "16px",sm:"16px", base: "8px" }}
                 >
                   May 2024 – Present
                 </Text>

@@ -1,5 +1,3 @@
-// import { motion } from "framer-motion";
-
 import { IoMdSchool } from "react-icons/io";
 import { FaSchool } from "react-icons/fa";
 import { MdLocationPin } from "react-icons/md";
@@ -40,13 +38,13 @@ const Education = () => {
         </Text>
       </Box>
       <Box style={{display:"flex",margin:"auto",flexDirection:"row",flexWrap:"wrap",gap:"20px",justifyContent:"space-around"}}>
-      <Box width={"auto"} padding={"20px 25px"}
-       boxShadow={"lg"} _hover={{boxShadow:"xl"}}>
+      <Box width={"auto"} padding={{md:"20px 40px",base:"20px 20px"}}
+       boxShadow={"lg"} _hover={{boxShadow:"xl"}}  border={"1px solid black"}>
       <Flex
         justifyContent={"left"}
         gap={"2"}
         alignItems="center"
-        fontSize={{ md: "26px", base: "22px" }}
+        fontSize={{ md: "26px",sm:"26px", base: "12px" }}
        
         margin={"auto"}
         
@@ -55,7 +53,7 @@ const Education = () => {
           <IoMdSchool />
         </Box>
         <Box>
-          <Text fontSize={{ md: "26px", base: "22px" }}>
+          <Text fontSize={{ md: "26px",sm:"22px", base: "12px" }}>
           Full Stack Web Development (Remote)
           </Text>
         </Box>
@@ -65,21 +63,21 @@ const Education = () => {
         justifyContent={"left"}
         gap={"2"}
         alignItems="center"
-        fontSize={{ md: "16px", base: "14px" }}
+        fontSize={{ md: "16px",sm:"16px", base: "8px" }}
         marginTop={"5px"}
       >
         <Box>
           <FaSchool />
         </Box>
         <Box >
-          <Text fontWeight={"medium"} paddingRight={"60px"} fontSize={{ md: "20px", base: "18px" }}>Masai School</Text>
+          <Text fontWeight={"medium"} paddingRight={"60px"} fontSize={{ md: "16px",sm:"16px", base: "8px" }}>Masai School</Text>
         </Box>
       </Flex>
       <Flex
         justifyContent={"left"}
         gap={"2"}
         alignItems="center"
-        fontSize={{ md: "16px", base: "14px" }}
+        fontSize={{ md: "16px",sm:"16px", base: "8px" }}
         
         marginTop={"5px"}
       >
@@ -87,14 +85,14 @@ const Education = () => {
           <MdLocationPin />
         </Box>
         <Box>
-          <Text fontSize={{ md: "20px", base: "18px" }}>Bengaluru, Karnataka</Text>
+          <Text fontSize={{ md: "16px",sm:"16px", base: "8px" }}>Bengaluru, Karnataka</Text>
         </Box>
       </Flex>
       <Flex
         justifyContent={"left"}
         gap={"2"}
         alignItems="center"
-        fontSize={{ md: "16px", base: "14px" }}
+        fontSize={{ md: "16px",sm:"16px", base: "8px" }}
         marginTop={"5px"}
       >
             
@@ -102,26 +100,26 @@ const Education = () => {
           <RiTimerFill />
         </Box>
         <Box>
-          <Text paddingRight={"8px"}  fontSize={{ md: "20px", base: "18px" }}>2022–2023</Text>
+          <Text paddingRight={"8px"}  fontSize={{ md: "16px",sm:"16px", base: "8px" }}>2022–2023</Text>
         </Box>
       </Flex>
       </Box>
       </Box>
-      <Box width={"auto"} padding={"20px 25px"}  boxShadow={"lg"} _hover={{boxShadow:"xl"}}  
-       style={{boxShadow:"box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"}} >
+      <Box width={"auto"}  padding={{md:"20px 40px",base:"20px 20px"}}  boxShadow={"lg"} _hover={{boxShadow:"xl"}}  
+       style={{boxShadow:"box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"}}  border={"1px solid black"}>
       <Flex
         
         gap={"2"}
         alignItems="center"
-        fontSize={{ md: "26px", base: "22px" }}
-        
+   
+        fontSize={{ md: "26px",sm:"26px", base: "12px" }}
         margin={"auto"}
       >
         <Box>
           <IoMdSchool />
         </Box>
         <Box>
-          <Text fontSize={{ md: "26px", base: "22px" }}>
+          <Text fontSize={{ md: "26px",sm:"22px", base: "12px" }}>
           B.E in Electrical Engineering
           </Text>
         </Box>
@@ -131,7 +129,7 @@ const Education = () => {
         justifyContent={"left"}
         gap={"2"}
         alignItems="center"
-        fontSize={{ md: "16px", base: "14px" }}
+        fontSize={{ md: "16px",sm:"16px", base: "8px" }}
         
         marginTop={"5px"}
       >
@@ -139,14 +137,14 @@ const Education = () => {
           <FaSchool />
         </Box>
         <Box >
-          <Text fontWeight={"medium"} paddingRight={"60px"} fontSize={{ md: "20px", base: "18px" }}>AC Patil College of Engineering</Text>
+          <Text fontWeight={"medium"} paddingRight={"60px"} fontSize={{ md: "16px",sm:"16px", base: "8px" }}>AC Patil College of Engineering</Text>
         </Box>
       </Flex>
       <Flex
         justifyContent={"left"}
         gap={"2"}
         alignItems="center"
-        fontSize={{ md: "16px", base: "14px" }}
+        fontSize={{ md: "16px",sm:"16px", base: "8px" }}
         
         marginTop={"5px"}
       >
@@ -154,14 +152,14 @@ const Education = () => {
           <MdLocationPin />
         </Box>
         <Box>
-          <Text fontSize={{ md: "20px", base: "18px" }}>Mumbai University, Mumbai</Text>
+          <Text fontSize={{ md: "16px",sm:"16px", base: "8px" }}>Mumbai University, Mumbai</Text>
         </Box>
       </Flex>
       <Flex
         justifyContent={"left"}
         gap={"2"}
         alignItems="center"
-        fontSize={{ md: "16px", base: "14px" }}
+        fontSize={{ md: "16px",sm:"16px", base: "8px" }}
         marginTop={"5px"}
       >
             
@@ -169,25 +167,25 @@ const Education = () => {
           <RiTimerFill />
         </Box>
         <Box>
-          <Text paddingRight={"8px"}  fontSize={{ md: "20px", base: "18px" }}>2016–2021</Text>
+          <Text paddingRight={"8px"}  fontSize={{ md: "16px",sm:"16px", base: "8px" }}>2016–2021</Text>
         </Box>
       </Flex>
       </Box>
       </Box>
-      <Box width={"auto"} padding={"20px 25px"}  boxShadow={"lg"} _hover={{boxShadow:"xl"}}  
-       style={{boxShadow:"box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"}}>
+      <Box width={"auto"}  padding={{md:"20px 40px",base:"20px 20px"}}  boxShadow={"lg"} _hover={{boxShadow:"xl"}}  
+       style={{boxShadow:"box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"}}  border={"1px solid black"}>
       <Flex
         justifyContent={"left"}
         gap={"2"}
         alignItems="center"
-        fontSize={{ md: "26px", base: "22px" }}
+        fontSize={{ md: "26px",sm:"26px", base: "12px" }}
         margin={"auto"}
       >
         <Box>
           <IoMdSchool />
         </Box>
         <Box>
-          <Text fontSize={{ md: "26px", base: "22px" }}>
+          <Text fontSize={{ md: "26px",sm:"22px", base: "12px" }}>
           Higher Secondary (Science)
           </Text>
         </Box>
@@ -197,7 +195,7 @@ const Education = () => {
         justifyContent={"left"}
         gap={"2"}
         alignItems="center"
-        fontSize={{ md: "16px", base: "14px" }}
+        fontSize={{ md: "16px",sm:"16px", base: "8px" }}
         
         marginTop={"5px"}
       >
@@ -205,14 +203,14 @@ const Education = () => {
           <FaSchool />
         </Box>
         <Box >
-          <Text fontWeight={"medium"} paddingRight={"60px"} fontSize={{ md: "20px", base: "18px" }}>TVT College Of Science,Maharashtra</Text>
+          <Text fontWeight={"medium"} paddingRight={"60px"} fontSize={{ md: "16px",sm:"16px", base: "8px" }}>TVT College Of Science,Maharashtra</Text>
         </Box>
       </Flex>
       <Flex
         justifyContent={"left"}
         gap={"2"}
         alignItems="center"
-        fontSize={{ md: "16px", base: "14px" }}
+        fontSize={{ md: "16px",sm:"16px", base: "8px" }}
         
         marginTop={"5px"}
       >
@@ -220,14 +218,14 @@ const Education = () => {
           <MdLocationPin />
         </Box>
         <Box>
-          <Text fontSize={{ md: "20px", base: "18px" }}>Maharashtra, Palghar</Text>
+          <Text fontSize={{ md: "16px",sm:"16px", base: "8px" }}>Maharashtra, Palghar</Text>
         </Box>
       </Flex>
       <Flex
         justifyContent={"left"}
         gap={"2"}
         alignItems="center"
-        fontSize={{ md: "16px", base: "14px" }}
+        fontSize={{ md: "16px",sm:"16px", base: "8px" }}
         marginTop={"5px"}
       >
             
@@ -235,7 +233,7 @@ const Education = () => {
           <RiTimerFill />
         </Box>
         <Box>
-          <Text paddingRight={"8px"}  fontSize={{ md: "20px", base: "18px" }}>2015–2016</Text>
+          <Text paddingRight={"8px"}  fontSize={{ md: "16px",sm:"16px", base: "8px" }}>2015–2016</Text>
         </Box>
       </Flex>
       </Box>

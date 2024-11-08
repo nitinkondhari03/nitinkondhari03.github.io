@@ -54,7 +54,7 @@
     align-items: center;
     color: white;
     gap: 2rem;
-    font-size: 13px;
+    font-size: 14px;
 
     > a {
       text-decoration: none;
@@ -96,14 +96,14 @@
     }
   }
 }
-@media screen and (max-width: 1297px) {
+@media screen and (max-width: 1305px) {
   .navbar {
     // Logo
     > div:first-child {
       width: 15%;
 
       > a > p {
-        font-size: 1rem;
+        font-size: 0.9rem;
       }
     }
 

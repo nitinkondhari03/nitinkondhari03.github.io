@@ -69,7 +69,7 @@ const Navbar = () => {
 
          {/* Education */}
 
-         {location.hash==="#about"?<a style={{color:"teal"}}  href="#Education">
+         {location.hash==="#Education"?<a style={{color:"teal"}}  href="#Education">
           <IoMdSchool />
           EDUCATION
         </a>:<a style={{color:"black"}}  href="#Education">
@@ -79,7 +79,7 @@ const Navbar = () => {
 
    {/* WorkExperiences */}
 
-        {location.hash==="#about"?<a style={{color:"teal"}} href="#WorkExperiences">
+        {location.hash==="#WorkExperiences"?<a style={{color:"teal"}} href="#WorkExperiences">
           <MdWork />
            WORK EXPERIENCES
         </a>:<a style={{color:"black"}} href="#WorkExperiences">
@@ -88,10 +88,10 @@ const Navbar = () => {
         </a>}  
 
         {/* Github Stats */}
-        {location.hash==="#github-stats"?<a style={{color:"teal"}} href="#about-section">
+        {location.hash==="#github-stats"?<a style={{color:"teal"}} href="#github-stats">
           <AiFillGithub />
           GITHUB STATS
-        </a>:<a href="#about-section" style={{color:"black"}}>
+        </a>:<a href="#github-stats" style={{color:"black"}}>
           <AiFillGithub />
           GITHUB STATS
         </a>}
@@ -99,10 +99,10 @@ const Navbar = () => {
         
 
         {/* Tech Stacks */}
-          {location.hash==="#skills"? <a className="nav-link skills" style={{color:"teal"}}  href="#github-section">
+          {location.hash==="#skills"? <a className="nav-link skills" style={{color:"teal"}}  href="#skills">
           <AiFillStar />
           SKILLS
-        </a>: <a className="nav-link skills" style={{color:"black"}}  href="#github-section">
+        </a>: <a className="nav-link skills" style={{color:"black"}}  href="#skills">
           <AiFillStar />
           SKILLS
         </a>}
@@ -119,10 +119,10 @@ const Navbar = () => {
         
 
         {/* Contact */}
-        {location.hash==="#contact"?<a style={{color:"teal"}} className="nav-link contact" href="#project-section">
+        {location.hash==="#contact"?<a style={{color:"teal"}} className="nav-link contact" href="#contact">
           <AiFillPhone />
           CONTACT
-        </a>:<a className="nav-link contact" style={{color:"black"}} href="#project-section">
+        </a>:<a className="nav-link contact" style={{color:"black"}} href="#contact">
           <AiFillPhone />
           CONTACT
         </a>}
