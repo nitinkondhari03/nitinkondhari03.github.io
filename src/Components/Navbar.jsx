@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { IoMdSchool } from "react-icons/io";
+import { MdWork } from "react-icons/md";
 import { FaBars, FaTimes } from "react-icons/fa";
 import {
   AiFillHome,
@@ -63,6 +65,26 @@ const Navbar = () => {
         </a>:<a style={{color:"black"}} className="nav-link about" href="#resume-link-2">
           <MdAccountCircle />
           ABOUT ME
+        </a>}  
+
+         {/* Education */}
+
+         {location.hash==="#about"?<a style={{color:"teal"}}  href="#Education">
+          <IoMdSchool />
+          EDUCATION
+        </a>:<a style={{color:"black"}}  href="#Education">
+          <IoMdSchool />
+          EDUCATION
+        </a>}  
+
+   {/* WorkExperiences */}
+
+        {location.hash==="#about"?<a style={{color:"teal"}} href="#WorkExperiences">
+          <MdWork />
+           WORK EXPERIENCES
+        </a>:<a style={{color:"black"}} href="#WorkExperiences">
+          <MdWork />
+           WORK EXPERIENCES 
         </a>}  
 
         {/* Github Stats */}

@@ -7,6 +7,8 @@ import Contact from './pages/Contact';
 import Github from './pages/GithubStats'
 import About from './pages/About';
 import Footer from "./pages/Footer"
+import Education from './pages/Education';
+import WorkExperiences from './pages/WorkExperiences';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
     <Navbar />
     <Home/>
     <About/>
+    <Education/>
+    <WorkExperiences/>
     <Github/>
     <Skills/>
     <Projects/>
