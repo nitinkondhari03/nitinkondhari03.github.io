@@ -31,7 +31,6 @@ const Skills = () => {
         backgroundColor: "white",
         fontFamily: "Hedvig Letters Serif",
         fontSize: "15px",
-        padding:"45px"
       }}
     >
       <Text

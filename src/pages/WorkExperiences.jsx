@@ -67,7 +67,7 @@ const WorkExperiences = () => {
             </Box>
             <Box>
               <Text fontSize={{ md: "26px",sm:"22px", base: "12px" }}>
-                Intern Web Developer
+                Web Developer Intern
               </Text>
             </Box>
           </Flex>
