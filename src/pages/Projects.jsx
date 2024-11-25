@@ -59,6 +59,22 @@ import reliancedigital4 from "../assets/projects/relinece/reliancedigital4.png"
 import reliancedigital5 from "../assets/projects/relinece/reliancedigital5.jpeg"
 import reliancedigital6 from "../assets/projects/relinece/reliancedigital6.jpeg"
 
+//ElectroShop
+import electroshop1 from "../assets/projects/ElectroShop/Ele_HomePage.png"
+import electroshop2 from "../assets/projects/ElectroShop/Ele_loginPage.png"
+import electroshop3 from "../assets/projects/ElectroShop/Ele_RegisterPage.png"
+import electroshop4 from "../assets/projects/ElectroShop/Ele_My Profile Page.png"
+import electroshop5 from "../assets/projects/ElectroShop/Ele_Update Profile Page.png"
+import electroshop6 from "../assets/projects/ElectroShop/Ele_Product page.png"
+import electroshop7 from "../assets/projects/ElectroShop/Ele_Product Details Page.png"
+import electroshop8 from "../assets/projects/ElectroShop/Ele_cart.png"
+import electroshop9 from "../assets/projects/ElectroShop/Ele_Shipping.png"
+import electroshop10 from "../assets/projects/ElectroShop/Ele_Payment.png"
+import electroshop11 from "../assets/projects/ElectroShop/Order Page.png"
+import electroshop12 from "../assets/projects/ElectroShop/Track Order.png"
+import electroshop13 from "../assets/projects/ElectroShop/Ele_AdminPage.png"
+import electroshop14 from "../assets/projects/ElectroShop/Ele_AdminPage.png"
+import electroshop15 from "../assets/projects/ElectroShop/EleAdmin Order.png"
 
 //Ecommere
 import ecommerce1 from "../assets/projects/Ecommerce/EcoHome.png"
@@ -100,8 +116,10 @@ import gadget13 from "../assets/projects/GadgetGalaxy/gadgetAdminEditProduct.png
 
 
 const Projects = () => {
+   
+  const project_one=[electroshop1,electroshop2,electroshop3,electroshop4,electroshop5,electroshop6,electroshop7,electroshop8,electroshop9,electroshop10,electroshop11,electroshop12,electroshop13,electroshop14,electroshop15]
 
-  const project_one=[ecommerce1,ecommerce2,ecommerce3,ecommerce4,ecommerce5,ecommerce6,ecommerce7,ecommerce8,ecommerce9,ecommerce10,ecommerce11,ecommerce12,ecommerce13,ecommerce14,ecommerce15,ecommerce16,ecommerce17,ecommerce18,ecommerce19,ecommerce20]
+  // const project_one=[ecommerce1,ecommerce2,ecommerce3,ecommerce4,ecommerce5,ecommerce6,ecommerce7,ecommerce8,ecommerce9,ecommerce10,ecommerce11,ecommerce12,ecommerce13,ecommerce14,ecommerce15,ecommerce16,ecommerce17,ecommerce18,ecommerce19,ecommerce20]
 
   const project_two=[gadget1,gadget2,gadget3,gadget4,gadget5,gadget6,gadget7,gadget8,gadget9,gadget10,gadget11,gadget12,gadget13]
   const project_three = [img1,img2,img3,img4,img5,img6];
@@ -146,10 +164,10 @@ const Projects = () => {
           </div>
           
           <div className="content">
-            <h1 className="project-title">Ecommerce.com</h1>
+            <h1 className="project-title">ElectroShop.Com</h1>
 
             <p className="project-description">
-            E-commerce is a an Indian online store that specializes in selling a wide range of designer mobile phone cases, laptop sleeves, and other tech accessories
+            ElectroShop is an online platform that sells electronic items, including mobile phones, laptops, earbuds, earphones, smartwatches, and other gadgets.
             </p>
      
             <h2>Tech Stacks</h2>
@@ -164,14 +182,14 @@ const Projects = () => {
         </Box>
         <Box width={{base:"20%",sm:"20%",md: "17%", lg: "15%",xl:"20%","2xl":"15%"}} style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <RiCss3Fill style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text>CSS</Text>
+          <Text>Nodejs</Text>
         </Box>
               
             </div>
             <div>
             <Box width={{base:"27%",sm:'21%',md: "18%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <IoLogoNodejs style={{margin:'auto',paddingTop:'2px'}}/>
-          <Text>Nodejs</Text>
+          <Text>Tailwind CSS</Text>
         </Box>
             <Box width={{base:"27%",sm:'20%',md: "17%", lg: "15%",xl: "20%","2xl": "15%"}}  style={{border:"1px solid black",borderTopLeftRadius:"10px",borderBottomRightRadius:"10px",padding:"5px"}}>
           <SiExpress style={{margin:'auto',paddingTop:'2px'}}/>
@@ -191,7 +209,7 @@ const Projects = () => {
             <div>
               <a
               className="project-github-link"
-                href="https://github.com/nitinkondhari03/ECOMMERCE"
+                href="https://github.com/nitinkondhari03/ElectroShop"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -200,7 +218,7 @@ const Projects = () => {
               </a>
               <a
               className="project-deployed-link"
-                href="https://ecommerce-ruby-ten.vercel.app/"
+                href="https://mern-liard-kappa.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
