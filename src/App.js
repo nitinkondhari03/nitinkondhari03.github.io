@@ -16,6 +16,8 @@ function App() {
     <Navbar />
     <Home/>
     <About/>
+    {/* <Education/> */}
+    <WorkExperiences/>
     <Github/>
     <Skills/>
     <Projects/>
