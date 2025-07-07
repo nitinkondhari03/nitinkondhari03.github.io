@@ -17,6 +17,7 @@ function App() {
     <Home/>
     <About/>
     {/* <Education/> */}
+    
     <WorkExperiences/>
     <Github/>
     <Skills/>
